@@ -17,7 +17,7 @@ export const BlogWork = () => {
 
             <div className="company-container">
               {/* icon &name */}
-              {/* year */}
+              {/* yeari */}
             </div>
           </div>
         </WorkContainer>
