@@ -1,9 +1,10 @@
 import { Footer, Navbar } from "../components";
-import { HeroSection } from "../components/sections";
+import { BlogWork, HeroSection } from "../components/sections";
 
 const Home = () => (
   <>
     <HeroSection />
+    <BlogWork />
   </>
 );
 
