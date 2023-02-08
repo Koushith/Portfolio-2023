@@ -1,18 +1,7 @@
-import Navbar from './Navbar';
-import { TypingText, TitleText } from './CustomTexts';
-import ExploreCard from './ExploreCard';
-import StartSteps from './StartSteps';
-import NewFeatures from './NewFeatures';
-import InsightCard from './InsightCard';
-import Footer from './Footer';
+export * from "./common/navbar.component.jsx";
+export * from "./common/container.component.jsx";
 
-export {
-  Navbar,
-  TitleText,
-  TypingText,
-  StartSteps,
-  NewFeatures,
-  ExploreCard,
-  InsightCard,
-  Footer,
-};
+export * from "./primitives/icon/icon.component.jsx";
+export * from "./common/footer/footer.component.jsx";
+
+export * from "./primitives/paragraph/paragraph.component.jsx";

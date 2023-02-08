@@ -8,4 +8,6 @@ html {
   font-size: 62.5%;
   font-family: "Inter", sans-serif;
   scroll-behavior: smooth;
+  background-color: #18181b;
+  color: #a1a1aa;
 }
