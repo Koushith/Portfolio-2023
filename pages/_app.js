@@ -1,6 +1,5 @@
 import Head from "next/head";
 import { Footer } from "../components";
-import StyledComponentsRegistry from "../lib/registry";
 
 import "../styles/globals.css";
 
