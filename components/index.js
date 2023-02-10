@@ -5,3 +5,4 @@ export * from "./primitives/icon/icon.component.jsx";
 export * from "./common/footer/footer.component.jsx";
 
 export * from "./primitives/paragraph/paragraph.component.jsx";
+export * from "./sections/about/about.component.jsx";

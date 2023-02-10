@@ -4,20 +4,21 @@ import { StyledFooter } from "./footer.styles";
 
 export const Footer = () => {
   return (
-    <Container>
-      <StyledFooter>
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Articles</li>
-            <li>Projects</li>
-            <li>Resume</li>
-            <li>Timeline</li>
-          </ul>
-        </nav>
-
-        <Paragraph>Designed inspired by Tailwind Template</Paragraph>
-      </StyledFooter>
-    </Container>
+    <StyledFooter>
+      <Container className="test">
+        <div className="test">
+          <nav>
+            <ul>
+              <li>About</li>
+              <li>Articles</li>
+              <li>Projects</li>
+              <li>Resume</li>
+              <li>Timeline</li>
+            </ul>
+          </nav>
+          <Paragraph>Designed inspired by Tailwind Template</Paragraph>
+        </div>
+      </Container>
+    </StyledFooter>
   );
 };
