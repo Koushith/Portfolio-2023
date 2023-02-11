@@ -24,9 +24,9 @@ export const HeroSectionContainer = styled.section`
   }
 
   p {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.8rem;
     /* or 175% */
     margin-top: 26px;
     color: #a1a1aa;
