@@ -4,14 +4,20 @@ import styled from "styled-components";
 export const StyledFooter = styled.footer`
   border-top: 1px solid rgba(63, 63, 70, 0.4);
 
-  .test {
+  .container {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     justify-content: space-between;
+
+    p {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 28px;
+    }
   }
 
   nav {
-    margin-top: 3rem;
+    margin: 3rem 0 3rem 0;
     ul {
       list-style: none;
       display: flex;
