@@ -5,6 +5,6 @@ export const StyledContainer = styled.div`
   margin: 0 auto;
 `;
 
-export const Container = ({ children }) => {
-  return <StyledContainer>{children}</StyledContainer>;
+export const Container = ({ children, ...rest }) => {
+  return <StyledContainer {...rest}>{children}</StyledContainer>;
 };
