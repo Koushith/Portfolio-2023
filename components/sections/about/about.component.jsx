@@ -1,4 +1,5 @@
 import { Container } from "../../common/container.component";
+import { Icon } from "../../primitives/icon/icon.component";
 import { AboutContainer } from "./about.styles";
 
 export const AboutSection = () => {
@@ -42,25 +43,39 @@ export const AboutSection = () => {
         </div>
 
         <div className="links">
-          <img src="" alt="" />
+          <img
+            src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&w=640&q=75"
+            alt="logo"
+          />
 
           <ul>
             <li>
+              <Icon />
               <span>Follow on Twitter</span>
             </li>
 
             <li>
+              <Icon />
               <span>Follow on Twitter</span>
             </li>
 
             <li>
+              <Icon />
               <span>Follow on Twitter</span>
             </li>
 
             <li>
+              <Icon />
               <span>Follow on Twitter</span>
             </li>
           </ul>
+
+          <div className="email-container">
+            <li>
+              <Icon />
+              <span>koushith97@gmail.com</span>
+            </li>
+          </div>
         </div>
       </AboutContainer>
     </Container>
