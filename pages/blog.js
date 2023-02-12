@@ -1,3 +1,3 @@
-const About = () => <>pageProps Aboyt</>;
+const About = () => <>pageProps Aboiy</>;
 
 export default About;
