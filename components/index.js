@@ -8,3 +8,4 @@ export * from "./primitives/paragraph/paragraph.component.jsx";
 export * from "./sections/about/about.component.jsx";
 
 export * from "./sections/projects/projects.section";
+export * from "./sections/blog/blog.section.jsx";
