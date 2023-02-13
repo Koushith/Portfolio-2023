@@ -6,11 +6,11 @@
 
 </p>
 <p align="center">
-🚀⚡️ Blazing fast blog built with Gatsby and hosted serverlessly using AWS Lambda and S3  🔥
+🚀⚡️ Blazing fast blog built with Next13🔥
 </p>
 
 <p align="center">
-    Project URL - <a href="https://blog.viralsangani.me/">https://blog.viralsangani.me/</a>
+    Project URL - <a href="https://koushith.com">https://koushith.com/</a>
 </p>
 
 ## DEMO
@@ -22,9 +22,9 @@
 ## :raised_hands: Technology Stack
 
 ![js](https://img.shields.io/badge/frontend-js-yellow?style=flat&logo=javaScript)
-![gatsby](https://img.shields.io/badge/Gastby-JS-%23663399)
-![materialUI](https://img.shields.io/badge/Material-UI-%231976D2)
-![django](https://img.shields.io/pypi/djversions/djangorestframework?logo=Django)
+![NextJS](https://img.shields.io/badge/Gastby-JS-%23663399)
+
+![styled components](https://img.shields.io/badge/styled%20-components-brightgreen)
 
 ## 🚀 Get Up and Running in 5 Minutes
 
