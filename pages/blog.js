@@ -1,3 +1,5 @@
-const About = () => <>pageProps Aboyt</>;
+import { BlogSection } from "../components";
+
+const About = () => <BlogSection />;
 
 export default About;
