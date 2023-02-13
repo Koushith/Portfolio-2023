@@ -26,7 +26,7 @@
 
 ![styled components](https://img.shields.io/badge/styled%20-components-brightgreen)
 
-## 🚀 Get Up and Running in 5 Minutes
+## 🚀 Get Up and Running 
 
 ### Prerequisites
 
