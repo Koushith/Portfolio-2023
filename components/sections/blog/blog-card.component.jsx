@@ -16,7 +16,7 @@ export const BlogCard = () => {
         </p>
 
         <a href="#" className="read-more">
-          Read More
+          Read More...
         </a>
       </div>
     </BlogCardContainer>
