@@ -13,8 +13,6 @@
     Project URL - <a href="https://koushith.com">https://koushith.com/</a>
 </p>
 
-
-
 <p align="center">
 <img src="./static/gatsby-blog-gif.gif" alt="Personal Blog">
 </p>
@@ -26,7 +24,7 @@
 
 ![styled components](https://img.shields.io/badge/styled%20-components-brightgreen)
 
-## 🚀 Get Up and Running 
+## 🚀 Get Up and Running
 
 ### Prerequisites
 
