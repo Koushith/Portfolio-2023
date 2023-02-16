@@ -5,8 +5,6 @@ const Home = () => (
   <>
     <HeroSection />
     <BlogWork />
-
-    <Footer />
   </>
 );
 
