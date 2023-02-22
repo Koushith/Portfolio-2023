@@ -5,11 +5,11 @@ export const BlogWorkContainer = styled.section`
   align-items: center;
   justify-content: flex-start;
   gap: 2rem;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
 
 export const BlogsContainer = styled.div`
-  border: 1px solid red;
+  /* border: 1px solid red; */
 `;
 
 export const WorkContainer = styled.div`
@@ -34,7 +34,8 @@ export const WorkContainer = styled.div`
       display: flex;
       align-items: center;
       justify-content: space-between;
-
+      margin-bottom: 1.6rem;
+      max-height: 4.8rem;
       .year {
         font-weight: 400;
         font-size: 14px;
@@ -74,7 +75,7 @@ export const WorkContainer = styled.div`
           font-size: 14px;
           line-height: 28px;
           /* or 200% */
-
+          margin-top: -0.8rem;
           display: flex;
           align-items: center;
 

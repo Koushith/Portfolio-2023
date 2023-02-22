@@ -21,7 +21,56 @@ export const BlogWork = () => {
 
             <div className="company-container">
               <div className="company-info">
-                <img src="" alt="logo" className="logo" />
+                <img
+                  src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
+                  alt="logo"
+                  className="logo"
+                />
+                <div>
+                  <p className="company-name">Safient Protocol</p>
+                  <span className="job-title">Frontend Engineer</span>
+                </div>
+              </div>
+              <p className="year">2019 - Present</p>
+            </div>
+
+            <div className="company-container">
+              <div className="company-info">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
+                  alt="logo"
+                  className="logo"
+                />
+                <div>
+                  <p className="company-name">Safient Protocol</p>
+                  <span className="job-title">Frontend Engineer</span>
+                </div>
+              </div>
+              <p className="year">2019 - Present</p>
+            </div>
+
+            <div className="company-container">
+              <div className="company-info">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
+                  alt="logo"
+                  className="logo"
+                />
+                <div>
+                  <p className="company-name">Safient Protocol</p>
+                  <span className="job-title">Frontend Engineer</span>
+                </div>
+              </div>
+              <p className="year">2019 - Present</p>
+            </div>
+
+            <div className="company-container">
+              <div className="company-info">
+                <img
+                  src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
+                  alt="logo"
+                  className="logo"
+                />
                 <div>
                   <p className="company-name">Safient Protocol</p>
                   <span className="job-title">Frontend Engineer</span>
