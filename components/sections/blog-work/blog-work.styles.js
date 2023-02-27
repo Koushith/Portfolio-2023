@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const BlogWorkContainer = styled.section`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
-  gap: 2rem;
+  gap: 5rem;
   /* border: 1px solid red; */
+  margin-top: 1.2rem;
 `;
 
 export const BlogsContainer = styled.div`
@@ -15,7 +16,7 @@ export const BlogsContainer = styled.div`
 export const WorkContainer = styled.div`
   border: 1px solid rgba(63, 63, 70, 0.4);
   border-radius: 10px;
-
+  min-width: 41rem;
   h2 {
     font-weight: 600;
     font-size: 14px;
@@ -30,7 +31,6 @@ export const WorkContainer = styled.div`
     padding: 2rem;
 
     .company-container {
-      min-width: 410px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -51,6 +51,7 @@ export const WorkContainer = styled.div`
       .company-info {
         display: flex;
         gap: 1.2rem;
+        align-self: flex-start;
 
         .logo {
           height: 40px;
@@ -83,5 +84,55 @@ export const WorkContainer = styled.div`
         }
       }
     }
+  }
+`;
+
+export const BlogCard = styled.div`
+  transition: all 0.3s;
+  padding: 3.2rem 4rem 3.2rem 2.6rem;
+  border-radius: 8px;
+  min-width: 580px;
+  cursor: pointer;
+  .published-date {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    border-left: 2px solid #a1a1aa;
+    color: #a1a1aa;
+    padding-left: 1rem;
+  }
+
+  .blog-title {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    margin: 1.2rem 0 0.8rem 0;
+    color: #f4f4f5;
+  }
+
+  .blog-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    /* or 200% */
+    margin-bottom: 1.2rem;
+    color: #a1a1aa;
+  }
+
+  a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    text-decoration: none;
+    color: #2dd4bf;
+  }
+
+  &:hover {
+    background-color: #242528;
   }
 `;

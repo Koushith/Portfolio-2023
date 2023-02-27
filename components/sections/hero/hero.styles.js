@@ -6,6 +6,7 @@ export const HeroSectionContainer = styled.section`
   .hero-content {
     margin-top: 150px;
     max-width: 726px;
+    margin-left: 2.6rem;
   }
 
   img {
