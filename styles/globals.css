@@ -11,3 +11,17 @@ html {
   background-color: #18181b;
   color: #a1a1aa;
 }
+
+.section-heading {
+  margin-left: 2.6rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  /* identical to box height, or 175% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
