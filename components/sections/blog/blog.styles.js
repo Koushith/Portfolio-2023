@@ -9,6 +9,8 @@ export const BlogSectionContainer = styled.section`
     margin-top: 10rem;
     color: #f4f4f5;
     max-width: 673px;
+    margin-top: 200px;
+    margin-left: 2rem;
   }
 
   .sub-heading {
@@ -19,11 +21,13 @@ export const BlogSectionContainer = styled.section`
     margin-top: 3rem;
     color: #a1a1aa;
     max-width: 673px;
+    margin-left: 2rem;
   }
 
   .blog-list-container {
     border-left: 1px solid rgba(63, 63, 70, 0.4);
     margin-top: 6.6rem;
     margin-bottom: 12rem;
+    margin-left: 2rem;
   }
 `;

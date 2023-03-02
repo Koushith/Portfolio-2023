@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styled from "styled-components";
 import { Container } from "./container.component";
 
@@ -23,6 +24,11 @@ export const NavbarContainer = styled.nav`
         font-size: 1.4rem;
         font-weight: 500;
         color: #e4e4e7;
+        transition-property: color, background-color, border-color,
+          text-decoration-color, fill, stroke, opacity, box-shadow, transform,
+          filter, backdrop-filter, -webkit-backdrop-filter;
+        transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+        transition-duration: 0.15s;
         &:hover {
           color: #2dd4bf;
           cursor: pointer;
@@ -40,19 +46,19 @@ export const NavBar = () => {
 
         <ul>
           <li>
-            <a href="#">About</a>
+            <Link href={"about"}>About</Link>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <Link href={"projects"}>Projects</Link>
           </li>
           <li>
-            <a href="#">Articles</a>
+            <Link href={"blog"}>Articles</Link>
           </li>
           <li>
-            <a href="#">Resume</a>
+            <Link href={"resume"}>Resume</Link>
           </li>
           <li>
-            <a href="#">Timeline</a>
+            <Link href={"timeline"}>Timeline</Link>
           </li>
         </ul>
       </NavbarContainer>

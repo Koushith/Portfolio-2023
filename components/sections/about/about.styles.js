@@ -4,7 +4,9 @@ export const AboutContainer = styled.section`
   display: flex;
   align-items: flex-start;
   gap: 10rem;
-
+  margin-top: 200px;
+  margin-left: 2rem;
+  margin-bottom: 200px;
   span {
     font-weight: 500;
     font-size: 1.6rem;
@@ -29,7 +31,7 @@ export const AboutContainer = styled.section`
     }
 
     .about-paragraph {
-      font-weight: 500;
+      font-weight: 400;
       font-size: 1.6rem;
       line-height: 2.8rem;
       /* or 175% */
