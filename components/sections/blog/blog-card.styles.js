@@ -13,6 +13,7 @@ export const BlogCardContainer = styled.div`
     /* identical to box height, or 200% */
     padding: 2rem 0;
     color: #a1a1aa;
+    margin-left: 3rem;
   }
 
   .blog-info {

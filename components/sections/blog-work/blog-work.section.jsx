@@ -25,7 +25,7 @@ export const BlogWork = () => {
                 that would still inspire us 100 years from now when humanity has
                 spread across our entire solar system.
               </p>
-              <Link href="#">Read article</Link>
+              <Link href="#">Read article.......</Link>
             </BlogCard>
             <BlogCard className="blog-card">
               <p className="published-date">Jan 5, 2023</p>{" "}
