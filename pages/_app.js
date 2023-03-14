@@ -9,9 +9,9 @@ const MyApp = ({ Component, pageProps }) => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <title>Koushith Portfolio</title>
     </Head>
-    <NavBar />
+    {/* <NavBar /> */}
     <Component {...pageProps} />
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 
