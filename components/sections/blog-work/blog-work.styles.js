@@ -7,10 +7,32 @@ export const BlogWorkContainer = styled.section`
   gap: 5rem;
   /* border: 1px solid red; */
   margin-top: 1.2rem;
+
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+    flex-direction: column;
+    padding: 0 2rem 0 2rem;
+  }
 `;
 
 export const BlogsContainer = styled.div`
-  /* border: 1px solid red; */
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+
+  @media (max-width: 34em) {
+    /* background-color: green; */
+  }
 `;
 
 export const WorkContainer = styled.div`
@@ -84,6 +106,21 @@ export const WorkContainer = styled.div`
         }
       }
     }
+  }
+
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+    width: 100%;
+    padding: 0 20px 0 20px;
+  }
+
+  @media (max-width: 34em) {
+    background-color: green;
+    width: 100%;
+    padding: 0 20px 0 20px;
   }
 `;
 

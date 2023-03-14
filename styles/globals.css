@@ -10,6 +10,7 @@ html {
   scroll-behavior: smooth;
   background-color: #18181b;
   color: #a1a1aa;
+  overflow-x: hidden;
 }
 
 .section-heading {

@@ -18,9 +18,9 @@ export const HeroSectionContainer = styled.section`
 
   h1 {
     font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    margin-top: 42px;
+    font-size: 4.8rem;
+    line-height: 5.6rem;
+    margin-top: 4.2rem;
     color: #f4f4f5;
   }
 
@@ -29,7 +29,7 @@ export const HeroSectionContainer = styled.section`
     font-size: 1.6rem;
     line-height: 2.8rem;
     /* or 175% */
-    margin-top: 26px;
+    margin-top: 2.6rem;
     color: #a1a1aa;
   }
 
@@ -38,5 +38,21 @@ export const HeroSectionContainer = styled.section`
     list-style: none;
     gap: 24px;
     margin-top: 26px;
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+  @media (max-width: 34em) {
+    h1 {
+      font-weight: 700;
+      font-size: 3.2rem;
+      line-height: 4.2rem;
+      margin-top: 4.2rem;
+      color: #f4f4f5;
+    }
+    p {
+      margin-top: 2rem;
+    }
   }
 `;
