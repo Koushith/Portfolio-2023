@@ -11,13 +11,13 @@ export const ProjectCardContainer = styled.div`
     border: 5px solid #242528;
     border-radius: 50%;
     margin-bottom: 1.5rem;
-    height: 5rem;
-    width: 5rem;
+    height: 4rem;
+    width: 4rem;
   }
 
   .project-name {
-    font-weight: 400;
-    font-size: 1.9rem;
+    font-weight: 500;
+    font-size: 1.6rem;
     line-height: 2.1rem;
     /* or 175% */
 
