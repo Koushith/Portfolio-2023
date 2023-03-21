@@ -16,19 +16,10 @@ export const HeroSectionContainer = styled.section`
     border: 1px solid rgba(45, 212, 191, 1);
   }
 
-  h1 {
-    font-weight: 700;
-    font-size: 4.8rem;
-    line-height: 5.6rem;
-    margin-top: 4.2rem;
-    color: #f4f4f5;
-  }
-
-  p {
+  .description {
     font-weight: 500;
     font-size: 1.6rem;
     line-height: 2.8rem;
-    /* or 175% */
     margin-top: 2.6rem;
     color: #a1a1aa;
   }

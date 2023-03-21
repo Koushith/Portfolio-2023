@@ -11,6 +11,23 @@ html {
   background-color: #18181b;
   color: #a1a1aa;
   overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.primary-heading {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 5.6rem;
+  margin-top: 4.2rem;
+  color: #f4f4f5;
+}
+
+.sub-heading {
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 2.8rem;
+  color: #a1a1aa;
+  margin-top: 2rem;
 }
 
 .section-heading {
@@ -25,4 +42,13 @@ html {
   text-align: center;
 
   color: #ffffff;
+}
+
+/* used with body */
+.paragraph {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+
+  color: #a1a1aa;
 }

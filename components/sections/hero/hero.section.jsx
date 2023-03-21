@@ -15,8 +15,10 @@ export const HeroSection = () => {
             alt="hero-image"
           />
 
-          <h1>Software Engineer, Product Designer.</h1>
-          <p>
+          <h1 className="primary-heading">
+            Software Engineer, Product Designer.
+          </h1>
+          <p className="description">
             I’m Koushith, a software Engineer and Product Designer based in
             Bangalore. I love designing and building for the web, you can read
             more about what I do and things I love over my website koushith.com.

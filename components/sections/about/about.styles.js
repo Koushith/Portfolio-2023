@@ -8,8 +8,8 @@ export const AboutContainer = styled.section`
   margin-left: 2rem;
   margin-bottom: 200px;
   span {
-    font-weight: 500;
-    font-size: 1.6rem;
+    font-weight: 400;
+    font-size: 1.4rem;
     line-height: 2.8rem;
     cursor: pointer;
     transition: all 0.3s;
@@ -21,23 +21,9 @@ export const AboutContainer = styled.section`
   .about {
     max-width: 63rem;
 
-    .about-heading {
-      font-weight: 700;
-      font-size: 4.8rem;
-      line-height: 5.6rem;
-      /* or 117% */
-      margin-bottom: 4rem;
-      color: #f4f4f5;
-    }
-
     .about-paragraph {
-      font-weight: 400;
-      font-size: 1.6rem;
-      line-height: 2.8rem;
-      /* or 175% */
       margin-bottom: 2rem;
-
-      color: #a1a1aa;
+      margin-top: 4rem;
     }
   }
 
