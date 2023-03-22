@@ -20,7 +20,7 @@ const workHistory = [
     title: "Product Engineer",
     startYear: 2020,
     endYear: 2023,
-    logo: "https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg",
+    logo: "https://img.freepik.com/free-vector/lock-feature-vector-technology-icon-silver-gradient-background_53876-112157.jpg?w=740&t=st=1679517184~exp=1679517784~hmac=7ef344b231bfa16e4225e416c789e6c0d6de9fa6133baef32490217c42ad7896",
   },
   {
     companyName: "Infosys Limited",
