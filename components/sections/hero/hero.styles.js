@@ -9,6 +9,29 @@ export const HeroSectionContainer = styled.section`
     margin-left: 2.6rem;
   }
 
+  li {
+    border: 1px solid rgba(63, 63, 70, 0.4);
+    border-radius: 4px;
+    width: 4.2rem;
+    height: 4.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.7;
+    transition: all 0.3s;
+    &:hover {
+      opacity: 1;
+    }
+    i {
+      font-size: 24px;
+      cursor: pointer;
+
+      &:hover {
+        color: #2dd4bf;
+      }
+    }
+  }
+
   img {
     width: 64px;
     height: 64px;

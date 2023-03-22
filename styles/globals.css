@@ -33,7 +33,7 @@ html {
 .section-heading {
   margin-left: 2.6rem;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 28px;
   /* identical to box height, or 175% */
 
@@ -51,4 +51,29 @@ html {
   line-height: 2.8rem;
 
   color: #a1a1aa;
+}
+
+/* used with blog headings */
+
+.sm-paragraph-bold {
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+  color: #f4f4f5;
+}
+
+.link {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+  margin-top: 1rem;
+  color: #2dd4bf;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.link:hover {
+  background-color: #211e22;
 }

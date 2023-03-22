@@ -26,16 +26,16 @@ export const HeroSection = () => {
 
           <ul>
             <li>
-              <Icon />
+              <i className="fa-brands fa-twitter"></i>
             </li>
             <li>
-              <Icon />
+              <i className="fa-brands fa-github"></i>
             </li>
             <li>
-              <Icon />
+              <i className="fa-brands fa-dribbble"></i>
             </li>
             <li>
-              <Icon />
+              <i className="fa-brands fa-linkedin"></i>
             </li>
           </ul>
         </div>

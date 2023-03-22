@@ -50,29 +50,29 @@ export const AboutSection = () => {
 
           <ul>
             <li>
-              <Icon />
+              <i className="fa-brands fa-twitter"></i>
               <span>Follow on Twitter</span>
             </li>
 
             <li>
-              <Icon />
-              <span>Follow on Twitter</span>
+              <i className="fa-brands fa-github"></i>
+              <span>Follow on GirHub</span>
             </li>
 
             <li>
-              <Icon />
-              <span>Follow on Twitter</span>
+              <i className="fa-brands fa-linkedin"></i>
+              <span>Follow on LinkedIn</span>
             </li>
 
             <li>
-              <Icon />
-              <span>Follow on Twitter</span>
+              <i className="fa-brands fa-dribbble"></i>
+              <span>Follow on Dribbble</span>
             </li>
           </ul>
 
           <div className="email-container">
             <li>
-              <Icon />
+              <i className="fa-solid fa-envelope"></i>
               <span>koushith97@gmail.com</span>
             </li>
           </div>

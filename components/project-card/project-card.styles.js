@@ -29,14 +29,14 @@ export const ProjectCardContainer = styled.div`
     font-size: 1.4rem;
     line-height: 21px;
     /* or 175% */
-    margin-top: 0.6rem;
+    margin-top: 1.2rem;
     color: #a1a1aa;
   }
 
-  .links {
+  .live-links {
     display: flex;
     gap: 2rem;
-    margin-top: 0.8rem;
+    margin-top: 1.2rem;
 
     a {
       text-decoration: none;

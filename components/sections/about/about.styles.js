@@ -48,14 +48,22 @@ export const AboutContainer = styled.section`
 
     li {
       display: flex;
-      gap: 1rem;
+      align-items: center;
+      gap: 1.2rem;
       margin-bottom: 1.2rem;
+      i {
+        font-size: 18px;
+      }
+
+      &:hover {
+        color: #14b8a6;
+      }
     }
 
     .email-container {
       border-top: 1px solid rgba(63, 63, 70, 0.4);
       display: flex;
-
+      align-items: center;
       gap: 1rem;
       margin-top: 3rem;
 

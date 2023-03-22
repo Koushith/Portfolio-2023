@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Container } from "../../common/container.component";
+import { BlogCard } from "./blog-card.component";
 import {
-  BlogCard,
   BlogsContainer,
   BlogWorkContainer,
   WorkContainer,
@@ -14,45 +14,9 @@ export const BlogWork = () => {
         <h2 className="section-heading">Recent Posts</h2>
         <BlogWorkContainer>
           <BlogsContainer>
-            <BlogCard className="blog-card">
-              <p className="published-date">Jan 5, 2023</p>{" "}
-              <h2 className="blog-title">
-                Crafting a design system for a multiplanetary future
-              </h2>
-              <p className="blog-desc">
-                Most companies try to stay ahead of the curve when it comes to
-                visual design, but for Planetaria we needed to create a brand
-                that would still inspire us 100 years from now when humanity has
-                spread across our entire solar system.
-              </p>
-              <Link href="#">Read article.......</Link>
-            </BlogCard>
-            <BlogCard className="blog-card">
-              <p className="published-date">Jan 5, 2023</p>{" "}
-              <h2 className="blog-title">
-                Crafting a design system for a multiplanetary future
-              </h2>
-              <p className="blog-desc">
-                Most companies try to stay ahead of the curve when it comes to
-                visual design, but for Planetaria we needed to create a brand
-                that would still inspire us 100 years from now when humanity has
-                spread across our entire solar system.
-              </p>
-              <Link href="#">Read article</Link>
-            </BlogCard>
-            <BlogCard className="blog-card">
-              <p className="published-date">Jan 5, 2023</p>{" "}
-              <h2 className="blog-title">
-                Crafting a design system for a multiplanetary future
-              </h2>
-              <p className="blog-desc">
-                Most companies try to stay ahead of the curve when it comes to
-                visual design, but for Planetaria we needed to create a brand
-                that would still inspire us 100 years from now when humanity has
-                spread across our entire solar system.
-              </p>
-              <Link href="#">Read article</Link>
-            </BlogCard>
+            <BlogCard />
+            <BlogCard />
+            <BlogCard />
           </BlogsContainer>
           <WorkContainer>
             <div className="experience-container">

@@ -12,7 +12,7 @@ export const ProjectCard = () => {
         Creating technology to empower civilians to explore space on their own
         terms.
       </p>
-      <div className="links">
+      <div className="live-links">
         <a href="#">github</a>
         <a href="#">live</a>
       </div>
