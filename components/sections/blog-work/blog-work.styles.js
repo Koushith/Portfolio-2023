@@ -98,7 +98,7 @@ export const WorkContainer = styled.div`
           font-size: 14px;
           line-height: 28px;
           /* or 200% */
-          margin-top: -0.8rem;
+          margin-top: -0.5rem;
           display: flex;
           align-items: center;
 

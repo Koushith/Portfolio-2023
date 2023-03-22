@@ -7,6 +7,30 @@ import {
   WorkContainer,
 } from "./blog-work.styles";
 
+const workHistory = [
+  {
+    companyName: "XY Retail",
+    title: "Software Engineer",
+    startYear: 2023,
+    endYear: "Present",
+    logo: "https://d1jbmqjs327xbn.cloudfront.net/_pa/spaces-developer.pxand/nofolder-2021124/xyretail-logo.svg",
+  },
+  {
+    companyName: "Safient Protocol",
+    title: "Product Engineer",
+    startYear: 2020,
+    endYear: 2023,
+    logo: "https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg",
+  },
+  {
+    companyName: "Infosys Limited",
+    title: "Associate",
+    startYear: 2019,
+    endYear: 2020,
+    logo: "https://static.vecteezy.com/system/resources/previews/020/336/451/non_2x/infosys-logo-infosys-icon-free-free-vector.jpg",
+  },
+];
+
 export const BlogWork = () => {
   return (
     <Container>
@@ -22,65 +46,20 @@ export const BlogWork = () => {
             <div className="experience-container">
               <h2>Work</h2>
 
-              <div className="company-container">
-                <div className="company-info">
-                  <img
-                    src="https://d1jbmqjs327xbn.cloudfront.net/_pa/spaces-developer.pxand/nofolder-2021124/xyretail-logo.svg"
-                    alt="logo"
-                    className="logo"
-                  />
-                  <div>
-                    <p className="company-name">Safient Protocol</p>
-                    <span className="job-title">Frontend Engineer</span>
+              {workHistory.map((c, index) => (
+                <div className="company-container" key={index}>
+                  <div className="company-info">
+                    <img src={c.logo} alt="logo" className="logo" />
+                    <div>
+                      <p className="company-name">{c.companyName}</p>
+                      <span className="job-title">{c.title}</span>
+                    </div>
                   </div>
+                  <p className="year">
+                    {c.startYear} - {c.endYear}
+                  </p>
                 </div>
-                <p className="year">2019 - Present</p>
-              </div>
-
-              <div className="company-container">
-                <div className="company-info">
-                  <img
-                    src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
-                    alt="logo"
-                    className="logo"
-                  />
-                  <div>
-                    <p className="company-name">Safient Protocol</p>
-                    <span className="job-title">Frontend Engineer</span>
-                  </div>
-                </div>
-                <p className="year">2019 - Present</p>
-              </div>
-
-              <div className="company-container">
-                <div className="company-info">
-                  <img
-                    src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
-                    alt="logo"
-                    className="logo"
-                  />
-                  <div>
-                    <p className="company-name">Safient Protocol</p>
-                    <span className="job-title">Frontend Engineer</span>
-                  </div>
-                </div>
-                <p className="year">2019 - Present</p>
-              </div>
-
-              <div className="company-container">
-                <div className="company-info">
-                  <img
-                    src="https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
-                    alt="logo"
-                    className="logo"
-                  />
-                  <div>
-                    <p className="company-name">Safient Protocol</p>
-                    <span className="job-title">Frontend Engineer</span>
-                  </div>
-                </div>
-                <p className="year">2019 - Present</p>
-              </div>
+              ))}
             </div>
           </WorkContainer>
         </BlogWorkContainer>
