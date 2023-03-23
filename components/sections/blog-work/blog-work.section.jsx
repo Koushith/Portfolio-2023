@@ -20,7 +20,7 @@ const workHistory = [
     title: "Product Engineer",
     startYear: 2020,
     endYear: 2023,
-    logo: "https://img.freepik.com/free-vector/lock-feature-vector-technology-icon-silver-gradient-background_53876-112157.jpg?w=740&t=st=1679517184~exp=1679517784~hmac=7ef344b231bfa16e4225e416c789e6c0d6de9fa6133baef32490217c42ad7896",
+    logo: "https://pbs.twimg.com/profile_images/1631237979309219842/OmkE_l2H_400x400.png",
   },
   {
     companyName: "Infosys Limited",

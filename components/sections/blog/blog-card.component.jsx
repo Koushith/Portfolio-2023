@@ -1,23 +1,19 @@
+import Link from "next/link";
 import { BlogCardContainer } from "./blog-card.styles";
 
-export const BlogCard = () => {
+export const BlogCard = ({ title, summary, key, published_at, slug }) => {
   return (
-    <BlogCardContainer className="blog-card">
-      <p className="blog-published-date paragraph">Jan 5, 2023</p>
+    <BlogCardContainer className="blog-card" key={key}>
+      <p className="blog-published-date paragraph">
+        {new Date(published_at).toDateString().toUpperCase()}
+      </p>
       <div className="blog-info">
-        <h2 className="sm-paragraph-bold ">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Deserunt,
-          blanditiis.
-        </h2>
-        <p className="blog-desc paragraph">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-          quaerat facilis reprehenderit delectus est voluptatibus sint maiores
-          corrupti numquam rem.
-        </p>
+        <h2 className="sm-paragraph-bold ">{title}</h2>
+        <p className="blog-desc paragraph">{summary}</p>
 
-        <a href="#" className="link">
-          Read More...
-        </a>
+        <Link href={`/posts/${slug}`} className="link">
+          Read More
+        </Link>
       </div>
     </BlogCardContainer>
   );

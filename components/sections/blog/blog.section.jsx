@@ -2,7 +2,7 @@ import { Container } from "../../common/container.component";
 import { BlogCard } from "./blog-card.component";
 import { BlogSectionContainer } from "./blog.styles";
 
-export const BlogSection = () => {
+export const BlogSection = ({ posts }) => {
   return (
     <Container>
       <BlogSectionContainer>
@@ -18,15 +18,15 @@ export const BlogSection = () => {
         {/* tags a, search, filters goes here */}
 
         <div className="blog-list-container">
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
-          <BlogCard />
+          {posts.map((post) => (
+            <BlogCard
+              title={post.title}
+              summary={post.custom_excerpt}
+              slug={post.slug}
+              key={post.slug}
+              published_at={post.published_at}
+            />
+          ))}
         </div>
       </BlogSectionContainer>
     </Container>
