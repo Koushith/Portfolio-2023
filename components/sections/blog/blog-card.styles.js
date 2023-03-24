@@ -20,7 +20,11 @@ export const BlogCardContainer = styled.div`
     cursor: pointer;
 
     .blog-desc {
-      margin-top: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    &:hover {
+      background-color: #252428;
     }
   }
 `;

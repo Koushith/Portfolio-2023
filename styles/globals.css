@@ -72,8 +72,28 @@ html {
   color: #2dd4bf;
   display: inline-block;
   text-decoration: none;
+  background-color: transparent;
 }
 
 .link:hover {
-  background-color: #211e22;
+  /* background-color: #211e22; */
+  opacity: 0.8;
+}
+
+.btn {
+  font-size: 1.4rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: #f4f4f5;
+  padding: 8px 14px;
+  border-radius: 4px;
+  background-color: #211f23;
+  border: none;
+  min-height: 4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn:hover {
+  color: #2dd4bf;
 }

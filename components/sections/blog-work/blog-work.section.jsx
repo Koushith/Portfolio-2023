@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { usePost } from "../../../context/post.context";
+
 import { Container } from "../../common/container.component";
 import { BlogCard } from "./blog-card.component";
 import {
@@ -32,6 +34,8 @@ const workHistory = [
 ];
 
 export const BlogWork = () => {
+  const { posts } = usePost();
+  console.log("postsssss", posts);
   return (
     <Container>
       <section className="blog-work" style={{ marginTop: "14rem" }}>
@@ -41,6 +45,9 @@ export const BlogWork = () => {
             <BlogCard />
             <BlogCard />
             <BlogCard />
+            <div className="btn-container">
+              <button className="btn">Load More</button>
+            </div>
           </BlogsContainer>
           <WorkContainer>
             <div className="experience-container">

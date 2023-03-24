@@ -46,19 +46,19 @@ export const NavBar = () => {
 
         <ul>
           <li>
-            <Link href={"about"}>About</Link>
+            <Link href="about">About</Link>
           </li>
           <li>
-            <Link href={"projects"}>Projects</Link>
+            <Link href="projects">Projects</Link>
           </li>
           <li>
-            <Link href={"blog"}>Articles</Link>
+            <Link href="blog">Articles</Link>
           </li>
           <li>
-            <Link href={"resume"}>Resume</Link>
+            <Link href="resume">Resume</Link>
           </li>
           <li>
-            <Link href={"timeline"}>Timeline</Link>
+            <Link href="timeline">Timeline</Link>
           </li>
         </ul>
       </NavbarContainer>

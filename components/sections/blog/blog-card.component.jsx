@@ -11,7 +11,7 @@ export const BlogCard = ({ title, summary, key, published_at, slug }) => {
         <h2 className="sm-paragraph-bold ">{title}</h2>
         <p className="blog-desc paragraph">{summary}</p>
 
-        <Link href={`/posts/${slug}`} className="link">
+        <Link href={`/${slug}`} className="link">
           Read More
         </Link>
       </div>

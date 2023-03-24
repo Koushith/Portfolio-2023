@@ -1,4 +1,5 @@
 import { BlogSection } from "../components";
+import { usePost } from "../context/post.context";
 
 // const CONTENT_API_KEY = "4a73d91788e9613b62a8310488";
 
@@ -57,5 +58,11 @@ export const getStaticProps = async () => {
 // eslint-disable-next-line react/function-component-definition
 export default function Blog(props) {
   const { posts } = props;
+  const { setPosts } = usePost();
+  if (posts) {
+    console.log("inside if blocck");
+    setPosts(posts);
+  }
+
   return <BlogSection posts={posts} />;
 }

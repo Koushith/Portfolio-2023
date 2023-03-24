@@ -6,6 +6,7 @@ export const BlogCardContainer = styled.article`
   padding: 3.2rem 4rem 3.2rem 2.6rem;
   border-radius: 8px;
   min-width: 580px;
+
   cursor: pointer;
   .published-date {
     font-weight: 400;
@@ -23,9 +24,8 @@ export const BlogCardContainer = styled.article`
 
   .blog-desc {
   }
-
   &:hover {
-    background-color: #242528;
+    background-color: #252428;
   }
 `;
 

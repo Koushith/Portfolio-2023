@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import styled from "styled-components";
-import { Container } from "../../components";
+import { Container } from "../components";
 
 export const ArticleContainer = styled.article`
   /* Body Styles */

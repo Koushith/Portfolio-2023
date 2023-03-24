@@ -19,6 +19,12 @@ export const BlogWorkContainer = styled.section`
 `;
 
 export const BlogsContainer = styled.div`
+  .btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem 0 4rem 0;
+  }
   /**************************/
   /* BELOW 944px (Tablets) */
   /**************************/
