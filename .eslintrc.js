@@ -16,6 +16,13 @@ module.exports = {
   },
   plugins: ["react"],
   rules: {
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        components: ["Link"],
+        specialLink: ["to"],
+      },
+    ],
     "react/no-unescaped-entities": 0,
     "eslintreact/no-danger": 0,
     "react/jsx-max-props-per-line": 0,
@@ -65,13 +72,5 @@ module.exports = {
     "jsx-a11y/no-autofocus": 0,
     "jsx-a11y/no-static-element-interactions": 0,
     "react/no-array-index-key": 0,
-    "jsx-a11y/anchor-is-valid": [
-      "error",
-      {
-        components: ["Link"],
-        specialLink: ["to", "hrefLeft", "hrefRight"],
-        aspects: ["noHref", "invalidHref", "preferButton"],
-      },
-    ],
   },
 };
