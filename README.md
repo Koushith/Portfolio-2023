@@ -20,7 +20,7 @@
 ## :raised_hands: Technology Stack
 
 ![js](https://img.shields.io/badge/frontend-js-yellow?style=flat&logo=javaScript)
-![NextJS](https://img.shields.io/badge/Gastby-JS-%23663399)
+![NextJS](https://img.shields.io/badge/NextJS-JS-%23663399)
 
 ![styled components](https://img.shields.io/badge/styled%20-components-brightgreen)
 
@@ -35,7 +35,7 @@
 
 1. Clone/Download repository.
 2. Inside the project open a terminal and run `npm i --save`.
-3. To start the project, run `gatsby develop`.
+3. To start the project, run `npm run dev`.
 
 ### 💜 Credits
 
