@@ -12,6 +12,13 @@ export const AboutContainer = styled.section`
     display: none;
   }
 
+  ol {
+    margin-left: 1.4rem;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+    line-height: 28px;
+  }
+
   span {
     font-weight: 400;
     font-size: 1.4rem;
@@ -24,11 +31,11 @@ export const AboutContainer = styled.section`
   }
 
   .about {
-    /* max-width: 63rem; */
+    max-width: 63rem;
 
     .about-paragraph {
       margin-bottom: 2rem;
-      margin-top: 4rem;
+      margin-top: 2.2rem;
     }
   }
 
@@ -36,13 +43,14 @@ export const AboutContainer = styled.section`
     img {
       aspect-ratio: 1/1;
       border-radius: 10px;
-      width: 400px;
-
+      width: 100%;
+      filter: grayscale(1);
       transform: rotate(3deg);
       transition: all 0.3s;
-
+      width: 300px;
       &:hover {
         transform: rotate(0deg);
+        filter: grayscale(0);
       }
     }
 
@@ -86,10 +94,11 @@ export const AboutContainer = styled.section`
     padding-right: 2rem;
     .about-image-desktop {
       display: flex;
-      width: 100%;
+      /* width: 100%; */
       img {
-        width: 100%;
+        width: 300px;
         aspect-ratio: 1/1;
+        filter: grayscale(1);
         border-radius: 10px;
       }
     }
@@ -117,9 +126,12 @@ export const AboutContainer = styled.section`
     .about-image-desktop {
       display: flex;
       width: 100%;
+      align-items: center;
+      justify-content: center;
       img {
-        width: 100%;
+        width: 200px;
         margin-bottom: 2rem;
+        filter: grayscale(1);
       }
     }
     .about-container {

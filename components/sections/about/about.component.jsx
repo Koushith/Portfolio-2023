@@ -8,51 +8,48 @@ export const AboutSection = () => {
       <div className="about">
         {/* pretty ugly way- fix this later while refactoring */}
         <div className="about-image-desktop">
-          <img
-            src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&w=640&q=75"
-            alt="logo"
-          />
+          <img src="koushith.jpg" alt="logo" />
         </div>
 
         <h2 className="primary-heading">
-          I’m Spencer Sharp. I live in New York City, where I design the future.
+          Hey, I'm Koushith, and I'm a software engineer from Bangalore, India.
         </h2>
 
         <p className="about-paragraph paragraph">
-          I’ve loved making things for as long as I can remember, and wrote my
-          first program when I was 6 years old, just two weeks after my mom
-          brought home the brand new Macintosh LC 550 that I taught myself to
-          type on.
+          If you're wondering what I do, I basically build and design things
+          that people use on their computers. And no, I'm not a wizard, although
+          I do occasionally wear a wizard hat for inspiration.
         </p>
 
         <p className="about-paragraph paragraph">
-          The only thing I loved more than computers as a kid was space. When I
-          was 8, I climbed the 40-foot oak tree at the back of our yard while
-          wearing my older sister’s motorcycle helmet, counted down from three,
-          and jumped — hoping the tree was tall enough that with just a bit of
-          momentum I’d be able to get to orbit.
-        </p>
-        <p className="about-paragraph paragraph">
-          I spent the next few summers indoors working on a rocket design, while
-          I recovered from the multiple surgeries it took to fix my badly broken
-          legs. It took nine iterations, but when I was 15 I sent my dad’s
-          Blackberry into orbit and was able to transmit a photo back down to
-          our family computer from space.
+          I've worked on creating Web apps, Moble application, and user
+          experiences, which basically means I've spent countless hours staring
+          at lines of code until they made sense. But hey, that's what makes me
+          happy! When I'm not coding, you can find me trying to convince my cat
+          to sit in my lap.
         </p>
 
+        <h2 className="sm-paragraph-bold">
+          My life principles are pretty simple:
+        </h2>
+
+        <ol>
+          <li> don't give up</li>
+          <li> work hard (but also take breaks to pet cats). </li>
+        </ol>
+
         <p className="about-paragraph paragraph">
-          Today, I’m the founder of Planetaria, where we’re working on civilian
-          space suits and manned shuttle kits you can assemble at home so that
-          the next generation of kids really can make it to orbit — from the
-          comfort of their own backyards
+          I was born and raised in a small village in Kodagu, also known as the
+          Scotland of India, and I didn't know anything about computers until a
+          few years ago. But I'm proud to say that I've taught myself everything
+          I know about software engineering, and I'm constantly learning more.
+          Just don't ask me to explain the difference between Java and
+          JavaScript. It's a sore subject."
         </p>
       </div>
 
       <div className="links">
-        <img
-          src="https://spotlight.tailwindui.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fportrait.79754e9e.jpg&w=640&q=75"
-          alt="logo"
-        />
+        <img src="koushith.jpg" alt="logo" />
 
         <ul>
           <li>

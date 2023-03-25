@@ -5,7 +5,6 @@ export const ProjectCardContainer = styled.div`
   border-radius: 8px;
   padding: 2rem 1.6rem;
   transition: all 0.3s;
-  min-width: 35rem;
 
   img {
     border: 5px solid #242528;
