@@ -7,6 +7,7 @@ import { useState } from "react";
 import { BottomSheet } from "react-spring-bottom-sheet";
 import styled from "styled-components";
 import { MobileMenu } from "./mobile-menu.component";
+import { useRouter } from "next/router";
 
 export const NavbarContainer = styled.div`
   position: sticky;
@@ -97,11 +98,14 @@ export const NavbarContainer = styled.div`
 
 export const NavBar = () => {
   const [open, setOpen] = useState(false);
+  const navigate = useRouter();
 
   return (
     <NavbarContainer>
       <nav>
-        <h2 className="logo">&#123; K &#125;</h2>
+        <h2 className="logo" onClick={() => navigate.push("/")}>
+          &#123; K &#125;
+        </h2>
         <ul className="nav-list">
           <li>
             <Link href="about">About</Link>
@@ -119,8 +123,14 @@ export const NavBar = () => {
             <Link href="timeline">Timeline</Link>
           </li>
           <div className="mobile-menu">
-            <i className="fa-solid fa-bars" onClick={() => setOpen(true)}></i>
-
+            {open ? (
+              <i
+                class="fa-sharp fa-solid fa-xmark"
+                onClick={() => setOpen(true)}
+              ></i>
+            ) : (
+              <i className="fa-solid fa-bars" onClick={() => setOpen(true)}></i>
+            )}
             <MobileMenu open={open} setOpen={setOpen} />
           </div>
         </ul>

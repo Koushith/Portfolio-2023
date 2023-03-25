@@ -27,4 +27,80 @@ export const BlogCardContainer = styled.div`
       background-color: #252428;
     }
   }
+
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+    flex-direction: column;
+    margin: 0 0 4rem 0;
+    gap: 1px;
+
+    .blog-published-date {
+      padding: 0 0;
+      margin-left: 0rem;
+      margin-bottom: 1.2rem;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      border-left: 2px solid #a1a1aa;
+      color: #a1a1aa;
+      padding-left: 1rem;
+    }
+
+    .blog-info {
+      border-radius: 8px;
+      width: 100%;
+      transition: all 0.3s;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      .blog-desc {
+        margin-top: 1rem;
+      }
+
+      &:hover {
+        background-color: #252428;
+      }
+    }
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+
+  @media (max-width: 34em) {
+    flex-direction: column;
+    margin: 0 0 4rem 0;
+    gap: 1px;
+
+    .blog-published-date {
+      padding: 0 0;
+      margin-left: 0rem;
+      margin-bottom: 1.2rem;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 28px;
+      border-left: 2px solid #a1a1aa;
+      color: #a1a1aa;
+      padding-left: 1rem;
+    }
+
+    .blog-info {
+      border-radius: 8px;
+      width: 100%;
+      transition: all 0.3s;
+      cursor: pointer;
+      padding: 0;
+      margin: 0;
+      .blog-desc {
+        margin-top: 1rem;
+      }
+
+      &:hover {
+        background-color: #252428;
+      }
+    }
+  }
 `;

@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ProjectSectionContainer = styled.section`
   .heading-container {
     max-width: 76rem;
-    margin-top: 4rem;
+    margin-top: 6rem;
   }
 
   .projects-container {

@@ -6,7 +6,7 @@ export const BlogSection = ({ posts }) => {
   return (
     <Container>
       <BlogSectionContainer>
-        <h2 className="heading">
+        <h2 className="primary-heading">
           Writing on software design, company building, and the aerospace
           industry.
         </h2>

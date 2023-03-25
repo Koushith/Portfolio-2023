@@ -1,18 +1,7 @@
 import styled from "styled-components";
 
 export const BlogSectionContainer = styled.section`
-  .heading {
-    font-weight: 700;
-    font-size: 4.8rem;
-    line-height: 5.6rem;
-    /* or 117% */
-    margin-top: 10rem;
-    color: #f4f4f5;
-    max-width: 673px;
-    margin-top: 200px;
-    margin-left: 2rem;
-  }
-
+  margin: 6rem 2rem 2rem 2rem;
   .sub-heading {
     font-weight: 500;
     font-size: 1.6rem;
@@ -21,13 +10,33 @@ export const BlogSectionContainer = styled.section`
     margin-top: 3rem;
     color: #a1a1aa;
     max-width: 673px;
-    margin-left: 2rem;
   }
 
   .blog-list-container {
     border-left: 1px solid rgba(63, 63, 70, 0.4);
     margin-top: 6.6rem;
     margin-bottom: 12rem;
-    margin-left: 2rem;
+  }
+
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+    max-width: 100%;
+    .blog-list-container {
+      border: none;
+    }
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+
+  @media (max-width: 34em) {
+    max-width: 100%;
+    .blog-list-container {
+      border: none;
+    }
   }
 `;
