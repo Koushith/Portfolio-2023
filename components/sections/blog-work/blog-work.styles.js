@@ -123,12 +123,12 @@ export const WorkContainer = styled.div`
   /**************************/
 
   @media (max-width: 59em) {
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
 
   /* mobile */
 
   @media (max-width: 34em) {
-    border: 1px solid green;
+    /* border: 1px solid green; */
   }
 `;

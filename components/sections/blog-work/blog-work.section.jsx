@@ -49,26 +49,29 @@ export const BlogWork = () => {
               <button className="btn">Load More</button>
             </div>
           </BlogsContainer>
-          <WorkContainer>
-            <div className="experience-container">
-              <h2>Work</h2>
 
-              {workHistory.map((c, index) => (
-                <div className="company-container" key={index}>
-                  <div className="company-info">
-                    <img src={c.logo} alt="logo" className="logo" />
-                    <div>
-                      <p className="company-name">{c.companyName}</p>
-                      <span className="job-title">{c.title}</span>
+          <div style={{ margin: "0 auto", width: "100%", padding: "0 2rem" }}>
+            <WorkContainer>
+              <div className="experience-container">
+                <h2>Work</h2>
+
+                {workHistory.map((c, index) => (
+                  <div className="company-container" key={index}>
+                    <div className="company-info">
+                      <img src={c.logo} alt="logo" className="logo" />
+                      <div>
+                        <p className="company-name">{c.companyName}</p>
+                        <span className="job-title">{c.title}</span>
+                      </div>
                     </div>
+                    <p className="year">
+                      {c.startYear} - {c.endYear}
+                    </p>
                   </div>
-                  <p className="year">
-                    {c.startYear} - {c.endYear}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </WorkContainer>
+                ))}
+              </div>
+            </WorkContainer>
+          </div>
         </BlogWorkContainer>
       </Container>
     </section>

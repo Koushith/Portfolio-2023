@@ -3,7 +3,7 @@ import { BlogWork, HeroSection } from "../components/sections";
 
 const Home = () => (
   <>
-    {/* <HeroSection /> */}
+    <HeroSection />
     <BlogWork />
   </>
 );
