@@ -28,12 +28,21 @@ export const StyledFooter = styled.footer`
       gap: 3.6rem;
 
       li {
-        font-weight: 500;
-        font-size: 14px;
-        line-height: 24px;
-        /* identical to box height, or 171% */
-
-        color: #e4e4e7;
+        a {
+          text-decoration: none;
+          font-size: 1.4rem;
+          font-weight: 500;
+          color: #e4e4e7;
+          transition-property: color, background-color, border-color,
+            text-decoration-color, fill, stroke, opacity, box-shadow, transform,
+            filter, backdrop-filter, -webkit-backdrop-filter;
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-duration: 0.15s;
+          &:hover {
+            color: #2dd4bf;
+            cursor: pointer;
+          }
+        }
       }
     }
   }

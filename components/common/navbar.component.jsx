@@ -14,6 +14,18 @@ export const NavbarContainer = styled.nav`
   border-bottom: 1px solid rgba(63, 63, 70, 0.4);
   backdrop-filter: blur(5px);
   padding: 0 0rem 0 2rem;
+
+  .logo {
+    color: #e4e4e7;
+    font-size: 1.4rem;
+    font-weight: 700;
+    transition: all 0.3s;
+    &:hover {
+      color: #2dd4bf;
+      cursor: pointer;
+    }
+  }
+
   ul {
     list-style: none;
     display: flex;
@@ -42,7 +54,8 @@ export const NavBar = () => {
   return (
     <Container>
       <NavbarContainer>
-        <img src="" alt="logo" className="logo" />
+        {/* <img src="logo.svg" alt="logo" className="logo" height={17} /> */}
+        <h2 className="logo">&#123; K &#125;</h2>
 
         <ul>
           <li>
