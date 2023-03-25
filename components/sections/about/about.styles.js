@@ -4,9 +4,9 @@ export const AboutContainer = styled.section`
   display: flex;
   align-items: flex-start;
   gap: 10rem;
-  margin-top: 20rem;
+  margin-top: 6rem;
 
-  margin-bottom: 10rem;
+  margin-bottom: 2rem;
 
   .about-image-desktop {
     display: none;
@@ -92,6 +92,12 @@ export const AboutContainer = styled.section`
     flex-direction: column;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-top: 0rem;
+    margin-bottom: 2rem;
+
+    .about {
+      margin-top: 2rem;
+    }
     .about-image-desktop {
       display: flex;
       /* width: 100%; */
@@ -100,6 +106,7 @@ export const AboutContainer = styled.section`
         aspect-ratio: 1/1;
         filter: grayscale(1);
         border-radius: 10px;
+        margin-bottom: 2rem;
       }
     }
 
@@ -123,6 +130,11 @@ export const AboutContainer = styled.section`
     gap: 1rem;
     align-self: flex-start;
     justify-content: flex-start;
+
+    .about {
+      margin-top: 2rem;
+    }
+
     .about-image-desktop {
       display: flex;
       width: 100%;
