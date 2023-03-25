@@ -7,6 +7,10 @@ export const HeroSectionContainer = styled.section`
     margin-top: 200px;
     max-width: 726px;
     margin-left: 2.6rem;
+
+    .hero-title {
+      margin-top: 4.2rem;
+    }
   }
 
   li {

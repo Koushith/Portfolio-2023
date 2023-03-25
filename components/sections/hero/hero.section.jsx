@@ -15,7 +15,7 @@ export const HeroSection = () => {
             alt="hero-image"
           />
 
-          <h1 className="primary-heading">
+          <h1 className="primary-heading hero-title">
             Software Engineer, Product Designer.
           </h1>
           <p className="description">

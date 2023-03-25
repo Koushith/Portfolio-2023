@@ -55,7 +55,9 @@ export const NavBar = () => {
     <Container>
       <NavbarContainer>
         {/* <img src="logo.svg" alt="logo" className="logo" height={17} /> */}
-        <h2 className="logo">&#123; K &#125;</h2>
+        <Link href="/" className="logo link">
+          &#123; K &#125;
+        </Link>
 
         <ul>
           <li>

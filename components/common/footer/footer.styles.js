@@ -46,4 +46,32 @@ export const StyledFooter = styled.footer`
       }
     }
   }
+
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+    .container {
+      flex-direction: column;
+      padding: 0 2rem 0 2rem;
+
+      nav {
+        margin-top: 4rem;
+      }
+      p {
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+      }
+    }
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+
+  @media (max-width: 34em) {
+    .container {
+    }
+  }
 `;
