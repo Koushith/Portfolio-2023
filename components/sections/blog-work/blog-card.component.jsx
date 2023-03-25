@@ -5,7 +5,7 @@ export const BlogCardContainer = styled.article`
   transition: all 0.3s;
   padding: 3.2rem 4rem 3.2rem 2.6rem;
   border-radius: 8px;
-  min-width: 580px;
+  /* min-width: 580px; */
 
   cursor: pointer;
   .published-date {

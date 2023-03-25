@@ -29,6 +29,7 @@ export const BlogsContainer = styled.div`
   /**************************/
 
   @media (max-width: 59em) {
+    /* background-color: pink; */
   }
 
   /**************************/
@@ -37,16 +38,17 @@ export const BlogsContainer = styled.div`
 
   @media (max-width: 34em) {
     /* background-color: green; */
+    /* background-color: green; */
+    /* padding: 2rem; */
   }
 `;
 
 export const WorkContainer = styled.div`
   border: 1px solid rgba(63, 63, 70, 0.4);
   border-radius: 10px;
-  min-width: 41rem;
-  background-color: red;
+  /* min-width: 41rem; */
+  width: 100%;
 
-  padding: 30px;
   h2 {
     font-weight: 600;
     font-size: 14px;
@@ -59,7 +61,7 @@ export const WorkContainer = styled.div`
 
   .experience-container {
     padding: 2rem;
-    background-color: green;
+
     .company-container {
       display: flex;
       align-items: center;
@@ -121,15 +123,12 @@ export const WorkContainer = styled.div`
   /**************************/
 
   @media (max-width: 59em) {
-    width: 100%;
     border: 1px solid red;
-    padding: 0 2rem 0 2rem;
   }
 
   /* mobile */
 
   @media (max-width: 34em) {
-    width: 100%;
-    padding: 0 2rem 0 2rem;
+    border: 1px solid green;
   }
 `;

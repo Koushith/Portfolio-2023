@@ -37,8 +37,8 @@ export const BlogWork = () => {
   const { posts } = usePost();
   console.log("postsssss", posts);
   return (
-    <Container>
-      <section className="blog-work" style={{ marginTop: "14rem" }}>
+    <section className="blog-work" style={{ marginTop: "14rem" }}>
+      <Container>
         <h2 className="section-heading">Recent Posts</h2>
         <BlogWorkContainer>
           <BlogsContainer>
@@ -70,7 +70,7 @@ export const BlogWork = () => {
             </div>
           </WorkContainer>
         </BlogWorkContainer>
-      </section>
-    </Container>
+      </Container>
+    </section>
   );
 };
