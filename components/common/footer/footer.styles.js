@@ -83,6 +83,7 @@ export const StyledFooter = styled.footer`
         font-size: 1.4rem;
         font-weight: 400;
         margin-bottom: 4rem;
+        text-align: center;
       }
     }
   }
