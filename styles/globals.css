@@ -101,8 +101,15 @@ html {
   margin-left: -4rem;
 }
 
+/* mobile */
+
 @media (max-width: 59em) {
   .blog-work {
     margin-left: 0rem;
+  }
+
+  .primary-heading {
+    font-size: 3.2rem;
+    line-height: 4rem;
   }
 }

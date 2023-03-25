@@ -1,6 +1,10 @@
 import { AboutSection } from "../components";
 import { Container } from "../components/common/container.component";
 
-const About = () => <AboutSection />;
+const About = () => (
+  <Container>
+    <AboutSection />;
+  </Container>
+);
 
 export default About;

@@ -4,9 +4,14 @@ export const AboutContainer = styled.section`
   display: flex;
   align-items: flex-start;
   gap: 10rem;
-  margin-top: 200px;
-  margin-left: 2rem;
-  margin-bottom: 200px;
+  margin-top: 20rem;
+
+  margin-bottom: 10rem;
+
+  .about-image-desktop {
+    display: none;
+  }
+
   span {
     font-weight: 400;
     font-size: 1.4rem;
@@ -19,7 +24,7 @@ export const AboutContainer = styled.section`
   }
 
   .about {
-    max-width: 63rem;
+    /* max-width: 63rem; */
 
     .about-paragraph {
       margin-bottom: 2rem;
@@ -69,6 +74,67 @@ export const AboutContainer = styled.section`
 
       li {
         margin-top: 2rem;
+      }
+    }
+  }
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+  @media (max-width: 59em) {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .about-image-desktop {
+      display: flex;
+      width: 100%;
+      img {
+        width: 100%;
+        aspect-ratio: 1/1;
+        border-radius: 10px;
+      }
+    }
+
+    .links {
+      img {
+        display: none;
+      }
+    }
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+
+  @media (max-width: 34em) {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 0;
+    margin-top: 0;
+    gap: 1rem;
+    align-self: flex-start;
+    justify-content: flex-start;
+    .about-image-desktop {
+      display: flex;
+      width: 100%;
+      img {
+        width: 100%;
+        margin-bottom: 2rem;
+      }
+    }
+    .about-container {
+      display: flex !important;
+      flex-direction: column;
+    }
+
+    .links {
+      width: 100%;
+      img {
+        display: none;
+      }
+
+      ul {
+        margin-top: 1rem;
       }
     }
   }
