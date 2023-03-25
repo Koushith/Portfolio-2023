@@ -96,3 +96,13 @@ html {
 .btn:hover {
   color: #2dd4bf;
 }
+
+.blog-work {
+  margin-left: -4rem;
+}
+
+@media (max-width: 59em) {
+  .blog-work {
+    margin-left: 0rem;
+  }
+}

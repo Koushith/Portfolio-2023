@@ -55,7 +55,7 @@ const MyApp = ({ Component, pageProps }) => (
     <PostContextProvider>
       <Component {...pageProps} />
     </PostContextProvider>
-    {/* <Footer /> */}
+    <Footer />
   </>
 );
 

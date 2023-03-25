@@ -71,7 +71,19 @@ export const StyledFooter = styled.footer`
   /**************************/
 
   @media (max-width: 34em) {
+    margin-top: 4rem;
+
     .container {
+      overflow: hidden;
+
+      nav {
+      }
+
+      p {
+        font-size: 1.4rem;
+        font-weight: 400;
+        margin-bottom: 4rem;
+      }
     }
   }
 `;
