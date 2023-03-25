@@ -51,11 +51,11 @@ const MyApp = ({ Component, pageProps }) => (
         skills: skills,
       }}
     />
-    {/* <NavBar /> */}
+    <NavBar />
     <PostContextProvider>
       <Component {...pageProps} />
     </PostContextProvider>
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 

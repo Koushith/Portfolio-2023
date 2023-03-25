@@ -6,7 +6,6 @@ export const HeroSectionContainer = styled.section`
   .hero-content {
     margin-top: 200px;
     max-width: 726px;
-    margin-left: 2.6rem;
 
     .hero-title {
       margin-top: 4.2rem;
@@ -59,18 +58,47 @@ export const HeroSectionContainer = styled.section`
   }
 
   /**************************/
-  /* BELOW 544px (Phones) */
+  /* BELOW 944px (Tablets) */
   /**************************/
-  @media (max-width: 34em) {
-    h1 {
+
+  @media (max-width: 59em) {
+    padding: 0 2rem 0 2rem;
+
+    .hero-content {
+      margin-top: 15rem;
+    }
+    .hero-title {
       font-weight: 700;
       font-size: 3.2rem;
-      line-height: 4.2rem;
-      margin-top: 4.2rem;
+      line-height: 4rem;
+      margin-top: 2.6rem !important;
+
       color: #f4f4f5;
     }
     p {
-      margin-top: 2rem;
+      margin-top: 1rem !important;
+    }
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+  @media (max-width: 34em) {
+    padding: 0 2rem 0 2rem;
+
+    .hero-content {
+      margin-top: 15rem;
+    }
+    .hero-title {
+      font-weight: 700;
+      font-size: 3.2rem;
+      line-height: 4rem;
+      margin-top: 2.6rem !important;
+
+      color: #f4f4f5;
+    }
+    p {
+      margin-top: 1rem !important;
     }
   }
 `;

@@ -27,6 +27,22 @@ export const BlogCardContainer = styled.article`
   &:hover {
     background-color: #252428;
   }
+
+  /**************************/
+  /* BELOW 944px (Tablets) */
+  /**************************/
+
+  @media (max-width: 59em) {
+  }
+
+  /**************************/
+  /* BELOW 544px (Phones) */
+  /**************************/
+
+  @media (max-width: 34em) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 `;
 
 export const BlogCard = () => {
