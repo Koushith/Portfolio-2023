@@ -1,7 +1,7 @@
 import { Footer, Navbar } from "../components";
 import { BlogWork, HeroSection } from "../components/sections";
 import { BottomSheet } from "react-spring-bottom-sheet";
-import "react-spring-bottom-sheet/dist/style.css";
+
 import { useState } from "react";
 
 const Home = () => {
