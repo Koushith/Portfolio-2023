@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { JsonLd } from "react-schemaorg";
-import { MenuProvider, MenuConfig } from "kmenu";
+
 import { Footer, NavBar } from "../components";
 import { PostContextProvider } from "../context/post.context";
 
@@ -51,10 +51,10 @@ const MyApp = ({ Component, pageProps }) => (
         skills: skills,
       }}
     />
-    {/* <NavBar /> */}
-    <MenuProvider config={{}}>
+    <NavBar />
+    <PostContextProvider>
       <Component {...pageProps} />
-    </MenuProvider>
+    </PostContextProvider>
     <Footer />
   </>
 );
