@@ -5,22 +5,23 @@ import styled from "styled-components";
 import { Container } from "../components";
 
 export const ArticleContainer = styled.article`
-  margin-bottom: 120px;
-  margin-top: 18rem;
-  /* Body Styles */
+  margin-bottom: 6rem;
+  margin-top: 4rem;
+
   .content {
     max-width: 800px;
     margin: 40px auto 0 auto;
+    padding: 0 2rem;
   }
 
   .hero-image {
-    width: 800px;
+    width: 100%;
     margin: 0 auto;
   }
 
   .meta-info {
     .post-title {
-      font-size: 38px;
+      font-size: 3.8rem;
       font-weight: 600;
       text-align: center;
     }
@@ -30,7 +31,11 @@ export const ArticleContainer = styled.article`
       gap: 2rem;
       align-items: center;
       justify-content: center;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
+
+      .published-date {
+        margin-top: 0.8rem;
+      }
     }
   }
 
@@ -158,13 +163,15 @@ export const ArticleContainer = styled.article`
   }
 `;
 
+// todo- move this to env
+
 const CONTENT_API_KEY = "4a73d91788e9613b62a8310488";
+
 async function getPost(slug) {
   const res = await fetch(
     `https://koushith.digitalpress.blog/ghost/api/v3/content/posts/slug/${slug}?key=${CONTENT_API_KEY}&fields=title,slug,html,feature_image,published_at,reading_time`
   ).then((res) => res.json());
 
-  console.log(res, "res");
   const posts = res.posts;
 
   return posts[0];
@@ -173,7 +180,7 @@ async function getPost(slug) {
 // Ghost CMS Request
 export const getStaticProps = async ({ params }) => {
   const post = await getPost(params.slug);
-  console.log("POSTTTT", post);
+
   return {
     props: { post },
     revalidate: 10,
@@ -202,8 +209,10 @@ const Post = (props) => {
         <div className="meta-info">
           <h1 className="post-title">{post.title}</h1>
           <div className="author-details">
-            <p className="">{new Date(post.published_at).toDateString()}</p>
-            <p>{post.reading_time}min read</p>
+            <p className="published-date">
+              {new Date(post.published_at).toDateString()}
+            </p>
+            <p className="published-date">{post.reading_time}min read</p>
           </div>
           <div className="hero-image">
             <img src={post.feature_image} className="feature-image" />
