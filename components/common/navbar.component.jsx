@@ -15,6 +15,8 @@ export const NavbarContainer = styled.div`
   z-index: 10;
   margin-left: 2rem;
   margin-right: 2rem;
+  border-bottom: 1px solid rgba(63, 63, 70, 0.4);
+  backdrop-filter: blur(5px);
 
   nav {
     display: flex;
@@ -22,8 +24,6 @@ export const NavbarContainer = styled.div`
     align-items: center;
     justify-content: space-between;
     margin: 0 auto;
-    border-bottom: 1px solid rgba(63, 63, 70, 0.4);
-    backdrop-filter: blur(5px);
     max-width: 1200px;
 
     .logo {
