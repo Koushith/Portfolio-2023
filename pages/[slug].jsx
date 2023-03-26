@@ -118,16 +118,16 @@ export const ArticleContainer = styled.article`
     aspect-ratio: auto;
   }
 
-  code {
-    color: white;
-    font-size: 14px;
-    font-weight: 500;
-    background-color: red;
-    border-radius: 1.5rem;
+  pre {
+    background-color: #211f23;
     padding: 2rem;
-    overflow-x: auto;
-    border: 1px solid;
-    border-color: red;
+    border-radius: 4px;
+  }
+  code {
+    /* padding: 0.2em 0.4em; */
+    border-radius: 0.25em;
+    /* border: 1px solid #ccc; */
+    width: 100%;
   }
 
   blockquote {
