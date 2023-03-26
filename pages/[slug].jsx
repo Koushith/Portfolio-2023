@@ -17,6 +17,12 @@ export const ArticleContainer = styled.article`
   .hero-image {
     width: 100%;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* img {
+      width: 100%;
+    } */
   }
 
   .meta-info {
