@@ -63,6 +63,10 @@ export const NavbarContainer = styled.div`
   /**************************/
 
   @media (max-width: 59em) {
+    margin: 0;
+    nav {
+      padding: 0 2rem;
+    }
     .nav-list {
       .mobile-menu {
         display: block;
@@ -82,8 +86,6 @@ export const NavbarContainer = styled.div`
   /**************************/
 
   @media (max-width: 34em) {
-    /* background-color: green; */
-
     .nav-list {
       .mobile-menu {
         display: block;
