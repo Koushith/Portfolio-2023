@@ -35,7 +35,7 @@ export const ProjectCardContainer = styled.div`
   .live-links {
     display: flex;
     gap: 2rem;
-    margin-top: 1.2rem;
+    margin-top: 1.8rem;
 
     a {
       text-decoration: none;

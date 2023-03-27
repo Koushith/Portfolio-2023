@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { ProjectCardContainer } from "./project-card.styles";
 
 export const ProjectCard = () => {
@@ -13,8 +14,12 @@ export const ProjectCard = () => {
         terms.
       </p>
       <div className="live-links">
-        <a href="#">github</a>
-        <a href="#">live</a>
+        <Link href="#">
+          <i class="fa-brands fa-github"></i>
+        </Link>
+        <Link href="#">
+          <i class="fa-solid fa-link"></i>
+        </Link>
       </div>
     </ProjectCardContainer>
   );
