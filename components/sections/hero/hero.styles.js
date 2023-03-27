@@ -87,7 +87,7 @@ export const HeroSectionContainer = styled.section`
     padding: 0 2rem 0 2rem;
 
     .hero-content {
-      margin-top: 15rem;
+      margin-top: 10rem;
     }
     .hero-title {
       font-weight: 700;
