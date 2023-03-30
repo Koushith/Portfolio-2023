@@ -1,24 +1,23 @@
 import Link from "next/link";
 import { ProjectCardContainer } from "./project-card.styles";
 
-export const ProjectCard = () => {
+//todo - add link and display based on props
+
+export const ProjectCard = ({ project }) => {
   return (
     <ProjectCardContainer>
       <img
         src="https://spotlight.tailwindui.com/_next/static/media/planetaria.ecd81ade.svg"
         alt="icon"
       />
-      <h3 className="project-name">Safient Protocol</h3>
-      <p className="project-description">
-        Creating technology to empower civilians to explore space on their own
-        terms.
-      </p>
+      <h3 className="project-name">{project.name}</h3>
+      <p className="project-description">{project.description}</p>
       <div className="live-links">
-        <Link href="#">
-          <i class="fa-brands fa-github"></i>
+        <Link href={project.gitHub} target="_blank">
+          <i className="fa-brands fa-github"></i>
         </Link>
-        <Link href="#">
-          <i class="fa-solid fa-link"></i>
+        <Link href={project.live} target="_blank">
+          <i className="fa-solid fa-link"></i>
         </Link>
       </div>
     </ProjectCardContainer>

@@ -4,24 +4,23 @@ import "react-spring-bottom-sheet/dist/style.css";
 import styled from "styled-components";
 
 export const MobileNavStyles = styled.div`
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 2rem;
-  gap: 3rem;
-  .menu-item {
-    padding: 20px;
+  .menu-list {
+    padding: 2rem;
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #000000;
-    border-radius: 4px;
-
-    i {
-      display: block;
-    }
-    a {
-      display: block;
+    .menu-item {
+      i,
+      a {
+        font-size: 14px;
+        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 2rem;
+        color: #fff;
+      }
+      a {
+        margin-left: 1rem;
+      }
     }
   }
 `;
@@ -50,32 +49,34 @@ export const MobileMenu = ({ open, setOpen }) => {
       // }
     >
       <MobileNavStyles>
-        <div className="menu-item">
-          <i class="fa-solid fa-link"></i>
-          <Link href="#" className="link">
-            About
-          </Link>
-        </div>
+        <div className="menu-list">
+          <div className="menu-item">
+            <i className="fa-brands fa-github"></i>
+            <Link href="/about" onClick={() => setOpen(false)}>
+              About
+            </Link>
+          </div>
 
-        <div className="menu-item">
-          <i class="fa-solid fa-link"></i>
-          <Link href="#" className="link">
-            About
-          </Link>
-        </div>
+          <div className="menu-item">
+            <i className="fa-brands fa-github"></i>
+            <Link href="/about" onClick={() => setOpen(false)}>
+              About
+            </Link>
+          </div>
 
-        <div className="menu-item">
-          <i class="fa-solid fa-link"></i>
-          <Link href="#" className="link">
-            About
-          </Link>
-        </div>
+          <div className="menu-item">
+            <i className="fa-brands fa-github"></i>
+            <Link href="/about" onClick={() => setOpen(false)}>
+              About
+            </Link>
+          </div>
 
-        <div className="menu-item">
-          <i class="fa-solid fa-link"></i>
-          <Link href="#" className="link">
-            About
-          </Link>
+          <div className="menu-item">
+            <i className="fa-brands fa-github"></i>
+            <Link href="/about" onClick={() => setOpen(false)}>
+              About
+            </Link>
+          </div>
         </div>
       </MobileNavStyles>
     </BottomSheet>
