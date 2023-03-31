@@ -16,6 +16,35 @@ export const StyledFooter = styled.footer`
     }
   }
 
+  .social-links {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+    li {
+      /* border: 1px solid rgba(63, 63, 70, 0.4);
+      border-radius: 4px; */
+      width: 4.2rem;
+      height: 4.2rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      opacity: 0.7;
+      transition: all 0.3s;
+      &:hover {
+        opacity: 1;
+      }
+      i {
+        font-size: 18px;
+        cursor: pointer;
+
+        &:hover {
+          color: #2dd4bf;
+        }
+      }
+    }
+  }
+
   nav {
     margin: 3rem 0 3rem 0;
     ul {
@@ -57,7 +86,7 @@ export const StyledFooter = styled.footer`
       padding: 0 2rem 0 2rem;
 
       nav {
-        margin-top: 4rem;
+        /* margin-top: 4rem; */
       }
       p {
         margin-top: -1rem;
@@ -76,7 +105,8 @@ export const StyledFooter = styled.footer`
     .container {
       overflow: hidden;
 
-      nav {
+      .social-links {
+        display: none;
       }
 
       p {

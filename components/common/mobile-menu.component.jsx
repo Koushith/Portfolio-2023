@@ -8,6 +8,9 @@ export const MobileNavStyles = styled.div`
     padding: 2rem;
 
     .menu-item {
+      display: flex;
+      gap: 1rem;
+
       i,
       a {
         font-size: 14px;
@@ -21,9 +24,9 @@ export const MobileNavStyles = styled.div`
           outline: none;
         }
       }
-      a {
+      /* a {
         margin-left: 1rem;
-      }
+      } */
     }
   }
 `;
