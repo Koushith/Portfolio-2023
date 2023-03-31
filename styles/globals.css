@@ -1,7 +1,7 @@
 :root {
   --rsbs-backdrop-bg: rgba(0, 0, 0, 0.671);
   --rsbs-bg: #18181b;
-  --rsbs-handle-bg: hsla(0, 0%, 0%, 14);
+  --rsbs-handle-bg: #a1a1aa;
   --rsbs-max-w: auto;
   --rsbs-ml: env(safe-area-inset-left);
   --rsbs-mr: env(safe-area-inset-right);
