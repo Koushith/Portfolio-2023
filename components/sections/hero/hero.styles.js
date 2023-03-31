@@ -26,7 +26,7 @@ export const HeroSectionContainer = styled.section`
       opacity: 1;
     }
     i {
-      font-size: 24px;
+      font-size: 18px;
       cursor: pointer;
 
       &:hover {
