@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 export const HeroSectionContainer = styled.section`
   .hero-content {
-    margin-top: 200px;
+    margin-top: 140px;
     max-width: 726px;
 
     .hero-title {

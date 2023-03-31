@@ -17,6 +17,9 @@ export const MobileNavStyles = styled.div`
         justify-content: center;
         padding-bottom: 2rem;
         color: #fff;
+        &:focus {
+          outline: none;
+        }
       }
       a {
         margin-left: 1rem;
@@ -51,30 +54,30 @@ export const MobileMenu = ({ open, setOpen }) => {
       <MobileNavStyles>
         <div className="menu-list">
           <div className="menu-item">
-            <i className="fa-brands fa-github"></i>
+            <i className="fa-solid fa-user"></i>
             <Link href="/about" onClick={() => setOpen(false)}>
               About
             </Link>
           </div>
 
           <div className="menu-item">
-            <i className="fa-brands fa-github"></i>
+            <i className="fa-solid fa-code-compare"></i>
             <Link href="/about" onClick={() => setOpen(false)}>
-              About
+              Projects
             </Link>
           </div>
 
           <div className="menu-item">
-            <i className="fa-brands fa-github"></i>
+            <i className="fa-sharp fa-solid fa-bookmark"></i>
             <Link href="/about" onClick={() => setOpen(false)}>
-              About
+              Articles
             </Link>
           </div>
 
           <div className="menu-item">
-            <i className="fa-brands fa-github"></i>
+            <i className="fa-solid fa-clock"></i>
             <Link href="/about" onClick={() => setOpen(false)}>
-              About
+              Timeline
             </Link>
           </div>
         </div>
