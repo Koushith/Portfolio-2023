@@ -1,3 +1,5 @@
+import Link from "next/link";
+import { socialLinks } from "../../../utils/social-links";
 import { Container } from "../../common/container.component";
 import { Icon } from "../../primitives/icon/icon.component";
 import { Paragraph } from "../../primitives/paragraph/paragraph.component";
@@ -19,27 +21,21 @@ export const HeroSection = () => {
             Software Engineer, Product Designer.
           </h1>
           <p className="description">
-            I’m Koushith, a software Engineer and Product Designer based in
-            Bangalore. I love designing and building for the web, you can read
-            more about what I do and things I love over my website koushith.com.
+            Hello, I am Koushith👋 A Software Engineer and Product Designer
+            based in Bangalore, with a passion for creating exceptional digital
+            experiences. I specialize in building cutting-edge web applications
+            that blend stunning visuals with seamless functionality.
           </p>
 
           <ul>
-            <li>
-              <i className="fa-brands fa-twitter"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-github"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-youtube"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-linkedin"></i>
-            </li>
-            <li>
-              <i className="fa-brands fa-dribbble"></i>
-            </li>
+            {socialLinks.map((item, index) => (
+              <li key={index}>
+                <Link href={item.link} target={"_blank"}>
+                  {" "}
+                  <i className={item.icon} />
+                </Link>
+              </li>
+            ))}
           </ul>
         </div>
       </Container>

@@ -25,6 +25,20 @@ export const HeroSectionContainer = styled.section`
     &:hover {
       opacity: 1;
     }
+    a {
+      list-style: none;
+      color: #a1a1aa;
+      font-size: 18px;
+      i {
+        font-size: 18px;
+        cursor: pointer;
+
+        &:hover {
+          color: #2dd4bf;
+        }
+      }
+    }
+
     i {
       font-size: 18px;
       cursor: pointer;

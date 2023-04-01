@@ -13,9 +13,12 @@
     "framer-motion": "^7.6.7",
     "kmenu": "^1.2.2-nightly-dev",
     "next": "13.0.3",
+    "nextjs-progressbar": "^0.0.16",
+    "nprogress": "^0.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-schemaorg": "^2.0.0",
+    "react-spinners": "^0.13.8",
     "react-spring-bottom-sheet": "^3.4.1",
     "styled-components": "^5.3.6"
   },
