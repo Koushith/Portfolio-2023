@@ -1,6 +1,7 @@
 import Link from "next/link";
+import { Router } from "next/router";
 import { usePost } from "../../../context/post.context";
-
+import { useRouter } from "next/router";
 import { Container } from "../../common/container.component";
 import { BlogCard } from "./blog-card.component";
 import {
@@ -33,20 +34,23 @@ const workHistory = [
   },
 ];
 
-export const BlogWork = () => {
-  const { posts } = usePost();
-  console.log("postsssss", posts);
+export const BlogWork = ({ posts }) => {
+  const router = useRouter();
   return (
     <section className="blog-work" style={{ marginTop: "14rem" }}>
       <Container>
         <h2 className="section-heading">Recent Posts</h2>
         <BlogWorkContainer>
           <BlogsContainer>
-            <BlogCard />
-            <BlogCard />
-            <BlogCard />
+            {posts?.slice(0, 3).map((post, i) => (
+              <div key={i}>
+                <BlogCard post={post} />
+              </div>
+            ))}
             <div className="btn-container">
-              <button className="btn">Load More</button>
+              <button className="btn" onClick={() => router.push("/blog")}>
+                Load More
+              </button>
             </div>
           </BlogsContainer>
 

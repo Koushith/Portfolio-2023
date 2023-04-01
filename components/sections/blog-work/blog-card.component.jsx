@@ -45,20 +45,16 @@ export const BlogCardContainer = styled.article`
   }
 `;
 
-export const BlogCard = () => {
+export const BlogCard = ({ post }) => {
   return (
     <BlogCardContainer className="blog-card">
-      <p className="published-date">Jan 5, 2023</p>{" "}
-      <h2 className="blog-title sm-paragraph-bold">
-        Crafting a design system for a multiplanetary future
-      </h2>
-      <p className="blog-desc paragraph">
-        Most companies try to stay ahead of the curve when it comes to visual
-        design, but for Planetaria we needed to create a brand that would still
-        inspire us 100 years from now when humanity has spread across our entire
-        solar system.
-      </p>
-      <Link href="#" className="link">
+      <p className="published-date">
+        {" "}
+        {new Date(post.published_at).toDateString().toUpperCase()}
+      </p>{" "}
+      <h2 className="blog-title sm-paragraph-bold">{post.title}</h2>
+      <p className="blog-desc paragraph">{post.custom_excerpt}</p>
+      <Link href={`/${post.slug}`} className="link">
         Read article.
       </Link>
     </BlogCardContainer>

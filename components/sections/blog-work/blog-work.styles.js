@@ -23,6 +23,9 @@ export const BlogsContainer = styled.div`
     align-items: center;
     justify-content: center;
     margin: 2rem 0 4rem 0;
+    a {
+      text-decoration: none;
+    }
   }
   /**************************/
   /* BELOW 944px (Tablets) */

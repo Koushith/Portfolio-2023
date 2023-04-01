@@ -35,8 +35,6 @@ import { usePost } from "../context/post.context";
 const CONTENT_API_KEY = "4a73d91788e9613b62a8310488";
 
 async function getPosts() {
-  // "https://demo.ghost.io/ghost/api/v3/content/posts/?key=22444f78447824223cefc48062"
-
   const res = await fetch(
     `https://koushith.digitalpress.blog/ghost/api/v3/content/posts/?key=${CONTENT_API_KEY}&fields=title,slug,custom_excerpt,published_at`
   ).then((res) => res.json());

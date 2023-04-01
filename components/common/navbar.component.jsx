@@ -119,7 +119,12 @@ export const NavBar = () => {
             <Link href="blog">Articles</Link>
           </li>
           <li>
-            <Link href="resume">Resume</Link>
+            <Link
+              href="https://drive.google.com/file/d/1IB3nH34JrCe7ZS6e3expPJWYGTMnWEFi/view?usp=sharing"
+              target={"_blank"}
+            >
+              Resume
+            </Link>
           </li>
           <li>
             <Link href="timeline">Timeline</Link>
