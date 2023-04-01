@@ -127,7 +127,7 @@ export const NavBar = () => {
             </Link>
           </li>
           <li>
-            <Link href="timeline">Timeline</Link>
+            <Link href="/timeline">Timeline</Link>
           </li>
           <div className="mobile-menu">
             {open ? (
