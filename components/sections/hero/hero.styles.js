@@ -15,8 +15,8 @@ export const HeroSectionContainer = styled.section`
   li {
     border: 1px solid rgba(63, 63, 70, 0.4);
     border-radius: 4px;
-    width: 4.2rem;
-    height: 4.2rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     justify-content: center;
