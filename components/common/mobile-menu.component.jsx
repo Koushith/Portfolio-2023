@@ -65,14 +65,14 @@ export const MobileMenu = ({ open, setOpen }) => {
 
           <div className="menu-item">
             <i className="fa-solid fa-code-compare"></i>
-            <Link href="/about" onClick={() => setOpen(false)}>
+            <Link href="/projects" onClick={() => setOpen(false)}>
               Projects
             </Link>
           </div>
 
           <div className="menu-item">
             <i className="fa-sharp fa-solid fa-bookmark"></i>
-            <Link href="/about" onClick={() => setOpen(false)}>
+            <Link href="/blog" onClick={() => setOpen(false)}>
               Articles
             </Link>
           </div>
