@@ -61,7 +61,7 @@ export const BlogCardContainer = styled.div`
       }
 
       &:hover {
-        background-color: #252428;
+        background-color: transparent;
       }
     }
   }
@@ -99,7 +99,7 @@ export const BlogCardContainer = styled.div`
       }
 
       &:hover {
-        background-color: #252428;
+        background-color: transparent;
       }
     }
   }
