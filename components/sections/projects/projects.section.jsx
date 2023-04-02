@@ -16,38 +16,38 @@ const projectData = [
     name: "Safient Guardians",
     description:
       "Recovery option on Argent-x wallet extension. built on Starknet Hackathon",
-    gitHub: "https://github.com/Koushith/ben-wallet-extension",
-    live: "https://devfolio.co/projects/ben-wallet-cf3a",
+    gitHub: "https://github.com/Koushith/argent-x-extension",
+    live: "https://devfolio.co/projects/safient-guardians-deed",
   },
   {
     icon: "",
     name: "Safient Protocol",
     description: "Manage your crypto secrets securely and conveniently.",
-    gitHub: "https://github.com/Koushith/ben-wallet-extension",
-    live: "https://devfolio.co/projects/ben-wallet-cf3a",
+    gitHub: "https://github.com/safient/wallet",
+    live: "https://dorahacks.io/buidl/2222",
   },
 
   {
     icon: "",
     name: "Portex",
     description: "Secure crypto portfolio management and exchange application.",
-    gitHub: "https://github.com/Koushith/ben-wallet-extension",
-    live: "https://devfolio.co/projects/ben-wallet-cf3a",
+    gitHub: "https://github.com/koshikraj/portex",
+    live: "https://devfolio.co/projects/portex-7c58",
   },
   {
     icon: "",
     name: "Sign Chain",
     description:
       "Digital signing platform for legal documents. Hello Sign alternative",
-    gitHub: "https://github.com/Koushith/ben-wallet-extension",
-    live: "https://devfolio.co/projects/ben-wallet-cf3a",
+    gitHub: "https://github.com/signchain/core",
+    live: "https://ethglobal.com/showcase/signchain-o181u",
   },
   {
     icon: "",
     name: "Ketch",
     description: "Fully functional Ecom store developed using MERN Stack.  ",
-    gitHub: "https://github.com/Koushith/ben-wallet-extension",
-    live: "https://devfolio.co/projects/ben-wallet-cf3a",
+    gitHub: "https://github.com/Koushith/Ketch-Store",
+    live: "https://ketch-store-nasq3epfb-koushith.vercel.app/",
   },
 ];
 
