@@ -24,7 +24,7 @@ export const Footer = () => {
             </li>
           </ul>
         </nav>
-        <ul className="social-links">
+        {/* <ul className="social-links">
           <li>
             <i className="fa-brands fa-twitter"></i>
           </li>
@@ -40,10 +40,10 @@ export const Footer = () => {
           <li>
             <i className="fa-brands fa-dribbble"></i>
           </li>
-        </ul>
+        </ul> */}
         <p>
           &copy; {`${new Date().getFullYear().toString()}`} - Built with NextJS
-          and Vanilla CSS.
+          and VanillaCSS.
         </p>
       </Container>
     </StyledFooter>
