@@ -10,6 +10,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
+    "@vercel/analytics": "^0.1.11",
     "framer-motion": "^7.6.7",
     "kmenu": "^1.2.2-nightly-dev",
     "next": "13.0.3",
