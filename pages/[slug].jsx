@@ -27,9 +27,10 @@ export const ArticleContainer = styled.article`
 
   .meta-info {
     .post-title {
-      font-size: 3.8rem;
+      font-size: 2.4rem;
       font-weight: 600;
       text-align: center;
+      padding: 0 2rem 0 2rem;
     }
 
     .author-details {
