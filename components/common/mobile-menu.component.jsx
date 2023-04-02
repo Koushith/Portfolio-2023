@@ -79,7 +79,7 @@ export const MobileMenu = ({ open, setOpen }) => {
 
           <div className="menu-item">
             <i className="fa-solid fa-clock"></i>
-            <Link href="/about" onClick={() => setOpen(false)}>
+            <Link href="/timeline" onClick={() => setOpen(false)}>
               Timeline
             </Link>
           </div>
