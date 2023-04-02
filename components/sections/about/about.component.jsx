@@ -1,8 +1,13 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { socialLinks } from "../../../utils/social-links";
 import { Container } from "../../common/container.component";
 import { Icon } from "../../primitives/icon/icon.component";
 import { AboutContainer } from "./about.styles";
 
 export const AboutSection = () => {
+  const router = useRouter();
+
   return (
     <AboutContainer>
       <div className="about">
@@ -52,25 +57,12 @@ export const AboutSection = () => {
         <img src="koushith.jpg" alt="logo" />
 
         <ul>
-          <li>
-            <i className="fa-brands fa-twitter"></i>
-            <span>Follow on Twitter</span>
-          </li>
-
-          <li>
-            <i className="fa-brands fa-github"></i>
-            <span>Follow on GirHub</span>
-          </li>
-
-          <li>
-            <i className="fa-brands fa-linkedin"></i>
-            <span>Follow on LinkedIn</span>
-          </li>
-
-          <li>
-            <i className="fa-brands fa-dribbble"></i>
-            <span>Follow on Dribbble</span>
-          </li>
+          {socialLinks.map((link, i) => (
+            <Link href={link.link} target="_next" key={i}>
+              <i className={link.icon}></i>
+              <span>Follow on {link.name}</span>
+            </Link>
+          ))}
         </ul>
 
         <div className="email-container">

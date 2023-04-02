@@ -59,7 +59,10 @@ export const AboutContainer = styled.section`
       margin-top: 5rem;
     }
 
-    li {
+    li,
+    a {
+      text-decoration: none;
+      color: #a1a1aa;
       display: flex;
       align-items: center;
       gap: 1.2rem;

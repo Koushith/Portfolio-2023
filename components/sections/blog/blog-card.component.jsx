@@ -1,9 +1,9 @@
 import Link from "next/link";
 import { BlogCardContainer } from "./blog-card.styles";
 
-export const BlogCard = ({ title, summary, key, published_at, slug }) => {
+export const BlogCard = ({ title, summary, published_at, slug }) => {
   return (
-    <BlogCardContainer className="blog-card" key={key}>
+    <BlogCardContainer className="blog-card" key={slug}>
       <p className="blog-published-date paragraph">
         {new Date(published_at).toDateString().toUpperCase()}
       </p>
