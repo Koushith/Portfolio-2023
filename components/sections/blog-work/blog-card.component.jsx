@@ -55,7 +55,7 @@ export const BlogCard = ({ post }) => {
       <h2 className="blog-title sm-paragraph-bold">{post.title}</h2>
       <p className="blog-desc paragraph">{post.custom_excerpt}</p>
       <Link href={`/${post.slug}`} className="link">
-        Read article.
+        Read article
       </Link>
     </BlogCardContainer>
   );
