@@ -24,23 +24,7 @@ export const Footer = () => {
             </li>
           </ul>
         </nav>
-        {/* <ul className="social-links">
-          <li>
-            <i className="fa-brands fa-twitter"></i>
-          </li>
-          <li>
-            <i className="fa-brands fa-github"></i>
-          </li>
-          <li>
-            <i className="fa-brands fa-youtube"></i>
-          </li>
-          <li>
-            <i className="fa-brands fa-linkedin"></i>
-          </li>
-          <li>
-            <i className="fa-brands fa-dribbble"></i>
-          </li>
-        </ul> */}
+
         <p>
           &copy; {`${new Date().getFullYear().toString()}`} - Built with NextJS
           and VanillaCSS.
