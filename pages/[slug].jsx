@@ -86,6 +86,10 @@ export const ArticleContainer = styled.article`
     font-size: 16px;
   }
 
+  h3 {
+    line-height: 26px;
+  }
+
   p,
   ul,
   ol,

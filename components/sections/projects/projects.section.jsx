@@ -5,6 +5,14 @@ import { ProjectSectionContainer } from "./projects.styles";
 const projectData = [
   {
     icon: "",
+    name: "CrediTail",
+    description:
+      "Ivoice with Spit payment option built using React Native, Node/Express and MongoDB",
+    gitHub: "https://github.com/Koushith/CrediTail",
+    live: "https://github.com/Koushith/CrediTail",
+  },
+  {
+    icon: "",
     name: "Ben Wallet",
     description:
       "Event-based conditional wallet account recovery. Built on ETHIndia2022 Hackathon  ",
