@@ -39,4 +39,6 @@
 
 ### 💜 Credits
 
-- This portfolio design is heavily inspired by Tailwind Templates.
+- This portfolio design is heavily inspired by Tailwind Template.
+
+---
