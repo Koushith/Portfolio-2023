@@ -1,5 +1,5 @@
 import { BlogSection } from "../components";
-
+//todo- move this to env
 const CONTENT_API_KEY = "4a73d91788e9613b62a8310488";
 
 async function getPosts() {
@@ -21,7 +21,7 @@ export const getStaticProps = async () => {
   };
 };
 
-// eslint-disable-next-line react/function-component-definition
+// eslint-disable-next-line react/function-component-definition.
 export default function Blog(props) {
   const { posts } = props;
 
