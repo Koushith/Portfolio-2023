@@ -5,6 +5,14 @@ import { ProjectSectionContainer } from "./projects.styles";
 const projectData = [
   {
     icon: "",
+    name: "Bike Rental System",
+    description:
+      "Implementation of a Bike Rental System using Node.js, Express, and MongoDB",
+    gitHub: "https://github.com/Koushith/Bike-Rental-System",
+    live: "https://github.com/Koushith/Bike-Rental-System",
+  },
+  {
+    icon: "",
     name: "CrediTail",
     description:
       "Ivoice with Spit payment option built using React Native, Node/Express and MongoDB",
