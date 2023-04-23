@@ -120,7 +120,7 @@ export const NavBar = () => {
           </li>
           <li>
             <Link
-              href="https://drive.google.com/file/d/1sJEU3z62S37xqTIvV61ZxJDcRs0RHsQN/view?usp=sharing"
+              href="https://drive.google.com/file/d/1v_VuoWDaVfwEKlKSdBeb2iUW8T78C6Yc/view?usp=sharing"
               target={"_blank"}
             >
               Resume
