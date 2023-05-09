@@ -11,13 +11,7 @@ import {
 } from "./blog-work.styles";
 
 const workHistory = [
-  {
-    companyName: "XY Retail",
-    title: "Software Engineer",
-    startYear: 2023,
-    endYear: "Present",
-    logo: "https://d1jbmqjs327xbn.cloudfront.net/_pa/spaces-developer.pxand/nofolder-2021124/xyretail-logo.svg",
-  },
+  
   {
     companyName: "Safient Protocol",
     title: "Product Engineer",
