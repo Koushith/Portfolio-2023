@@ -21,17 +21,16 @@ export const AboutSection = () => {
         </h2>
 
         <p className="about-paragraph paragraph">
-          If you're wondering what I do, I basically build and design things
-          that people use on their computers. And no, I'm not a wizard, although
-          I do occasionally wear a wizard hat for inspiration.
+          If you're wondering what I do, I basically design and build things
+          that people use. And no, I'm not a wizard, although I do occasionally
+          wear a wizard hat for inspiration.
         </p>
 
         <p className="about-paragraph paragraph">
-          I've worked on creating Web apps, Moble application, and user
-          experiences, which basically means I've spent countless hours staring
-          at lines of code until they made sense. But hey, that's what makes me
-          happy! When I'm not coding, you can find me trying to convince my cat
-          to sit in my lap.
+          I've worked on creating Web and Moble application, which basically
+          means I've spent countless hours staring at lines of code until they
+          made sense. But hey, that's what makes me happy! When I'm not coding,
+          you can find me trying to convince my cat to sit in my lap.
         </p>
 
         <h2 className="sm-paragraph-bold">
@@ -39,8 +38,8 @@ export const AboutSection = () => {
         </h2>
 
         <ol>
-          <li> don't give up</li>
-          <li> work hard (but also take breaks to pet cats). </li>
+          <li> Don't give up</li>
+          <li> Work hard (but also take breaks to pet cats). </li>
         </ol>
 
         <p className="about-paragraph paragraph">
@@ -48,8 +47,6 @@ export const AboutSection = () => {
           Scotland of India, and I didn't know anything about computers until a
           few years ago. But I'm proud to say that I've taught myself everything
           I know about software engineering, and I'm constantly learning more.
-          Just don't ask me to explain the difference between Java and
-          JavaScript. It's a sore subject."
         </p>
       </div>
 

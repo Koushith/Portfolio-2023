@@ -7,12 +7,12 @@ export const BlogSection = ({ posts }) => {
     <Container>
       <BlogSectionContainer>
         <h2 className="primary-heading">
-          Writing on software design, company building, and the aerospace
-          industry.
+          Writing on software engineering, UI design, and about life
+          experiences.
         </h2>
         <p className="sub-heading">
-          All of my long-form thoughts on programming, leadership, product
-          design, and more, collected in chronological order.
+          All of my long-form thoughts on programming, product design, and more,
+          collected in chronological order.
         </p>
 
         {/* tags a, search, filters goes here */}
