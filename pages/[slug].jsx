@@ -135,6 +135,11 @@ export const ArticleContainer = styled.article`
     width: 100%;
   }
 
+  video{
+width:100%;
+
+  }
+
   blockquote {
     border-left: 4px solid #ccc;
     font-weight: 500;
