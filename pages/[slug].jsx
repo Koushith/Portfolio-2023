@@ -139,6 +139,29 @@ export const ArticleContainer = styled.article`
 width:100%;
 
   }
+iframe{
+  width:100% !important;
+  height:100% !important;
+}
+  .html5-video-player {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    outline: 0;
+    font-family: "YouTube Noto",Roboto,Arial,Helvetica,sans-serif;
+    color: #eee;
+    text-align: left;
+    direction: ltr;
+    font-size: 11px;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -ms-high-contrast-adjust: none;
+}
 
   blockquote {
     border-left: 4px solid #ccc;
