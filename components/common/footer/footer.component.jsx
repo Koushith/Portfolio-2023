@@ -27,7 +27,7 @@ export const Footer = () => {
 
         <p>
           &copy; {`${new Date().getFullYear().toString()}`} - Built with NextJS
-          and VanillaCSS.
+          and VanillaCSS. Design by Tailwind Labs.
         </p>
       </Container>
     </StyledFooter>
