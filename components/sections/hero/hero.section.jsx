@@ -12,7 +12,7 @@ export const HeroSection = () => {
         <div className="hero-content">
           <img
             src={
-              "https://pbs.twimg.com/profile_images/1515621916551577601/yV-Trv9F_400x400.jpg"
+              "https://pbs.twimg.com/profile_images/1733931010977640448/KTlA02mC_400x400.jpg"
             }
             alt="hero-image"
           />
