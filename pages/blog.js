@@ -26,6 +26,7 @@ export const getStaticProps = async () => {
 // eslint-disable-next-line react/function-component-definition.
 export default function Blog(props) {
   const { posts } = props;
-
+  console.log(posts)
+  console.log(posts.length)
   return <BlogSection posts={posts} />;
 }
