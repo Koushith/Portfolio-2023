@@ -36,10 +36,6 @@ const MyApp = ({ Component, pageProps }) => {
           name="description"
           content="I'm a Designer turned into Developer, skilled in React, React Native, Swift UI, and Java."
         />
-        <meta
-          name="keywords"
-          content="designer turned into developer, react, react native, swiftui, java"
-        />
         <meta name="author" content="Koushith" />
       </Head>
       <JsonLd
@@ -47,9 +43,7 @@ const MyApp = ({ Component, pageProps }) => {
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Koushith",
-          jobTitle: "Designer Turned into Developer",
-          description:
-            "I'm a designer turned into developer with experience in React, React Native, Swift UI, and Java.",
+          jobTitle: "Lead Engineer @ReclaimProtocol",
           skills: skills,
         }}
       />
