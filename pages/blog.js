@@ -8,6 +8,8 @@ async function getPosts() {
   ).then((res) => res.json());
 
   const posts = res.posts;
+  console.log(posts)
+  console.log(posts.length)
 
   return posts;
 }
