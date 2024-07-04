@@ -100,6 +100,13 @@ export const ArticleContainer = styled.article`
     color: #a1a1aa;
   }
 
+  figcaption{
+  font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+  
+  }
+
   li {
     /* margin: 15px 0 15px 15px; */
     margin-left: 18px;
