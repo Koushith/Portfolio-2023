@@ -39,7 +39,7 @@ export const AboutSection = () => {
 
         <ol>
           <li> Don't give up</li>
-          <li> Work hard (but also take breaks to pet cats). </li>
+          <li> Work hard in the right direction (but also take breaks to pet cats). </li>
         </ol>
 
         <p className="about-paragraph paragraph">
