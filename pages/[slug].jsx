@@ -58,24 +58,24 @@ body {
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
   font-weight: bold;
-  margin-top: 1.5em;
+  margin-top: 1.5rem;
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 1.2rem;
 }
 
 /* Paragraphs */
 p {
-  margin: 1em 0;
+  margin: 1rem 0;
 }
 
 /* Links */
@@ -148,13 +148,13 @@ th {
     padding: 10px;
   }
   h1 {
-    font-size: 1.8em;
+    font-size: 1.8rem;
   }
   h2 {
-    font-size: 1.4em;
+    font-size: 1.4rem;
   }
   h3 {
-    font-size: 1.1em;
+    font-size: 1.1rem;
   }
 }
 
