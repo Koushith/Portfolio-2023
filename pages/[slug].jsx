@@ -83,7 +83,7 @@ export const ArticleContainer = styled.article`
     margin: 30px 0 10px 0;
     font-weight: 500;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
   }
 
   h3 {
