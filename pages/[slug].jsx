@@ -46,120 +46,160 @@ export const ArticleContainer = styled.article`
     }
   }
 
-/* Reset default browser styles */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px;
-  color: #333;
-}
+  /* Header Styles */
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: bold;
-  margin-top: 1.5rem;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.5rem;
-}
-
-h3 {
-  font-size: 1.2rem;
-}
-
-/* Paragraphs */
-p {
-  margin: 1rem 0;
-}
-
-/* Links */
-a {
-  color: #007bff; /* Bootstrap default link color */
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-/* Images */
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 1em 0;
-}
-
-/* Code blocks */
-pre {
-  background-color: #f8f9fa; /* Bootstrap code block background color */
-  padding: 10px;
-  overflow-x: auto;
-  border-radius: 5px;
-  border: 1px solid #ddd;
-  margin: 1em 0;
-  white-space: pre-wrap;
-}
-
-code {
-  font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-}
-
-/* Blockquotes */
-blockquote {
-  margin: 1em 0;
-  padding: 0 15px;
-  color: #666;
-  border-left: 4px solid #ccc;
-}
-
-/* Lists */
-ul, ol {
-  margin: 1em 0;
-  padding-left: 20px;
-}
-
-/* Tables */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 1em 0;
-}
-
-th, td {
-  padding: 8px;
-  border: 1px solid #ddd;
-  text-align: left;
-}
-
-th {
-  background-color: #f2f2f2;
-}
-
-/* Responsive layout adjustments */
-@media only screen and (max-width: 600px) {
-  body {
-    padding: 10px;
+  header {
+    background-color: #fff;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 20px;
   }
-  h1 {
-    font-size: 1.8rem;
+
+  header h1 {
+    margin: 0;
+    font-size: 36px;
+    font-weight: bold;
   }
-  h2 {
-    font-size: 1.4rem;
+
+  header p {
+    margin: 0;
+    font-size: 18px;
   }
+
+  /* Main Content Styles */
+
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong {
+    margin: 30px 0 10px 0;
+    font-weight: 500;
+    color: #fff;
+    font-size: 16px;
+  }
+
   h3 {
-    font-size: 1.1rem;
+    line-height: 26px;
   }
+
+  p,
+  ul,
+  ol,
+  pre {
+    font-size: 14px;
+    line-height: 28px;
+    margin: 22px 0 20px 0;
+    color: #a1a1aa;
+  }
+
+  li {
+    /* margin: 15px 0 15px 15px; */
+    margin-left: 18px;
+    margin-bottom: 8px;
+    font-size: 14px;
+  }
+
+  a {
+    color: #2dd4bf;
+    font-weight: 500;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    aspect-ratio: auto;
+  }
+
+  pre {
+    background-color: #211f23;
+    padding: 2rem;
+    border-radius: 4px;
+  }
+  code {
+    /* padding: 0.2em 0.4em; */
+    border-radius: 0.25em;
+    /* border: 1px solid #ccc; */
+    width: 100%;
+  }
+
+  video{
+width:100%;
+
+  }
+iframe{
+  width:100% !important;
+  height:100% !important;
+}
+  .html5-video-player {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 0;
+    outline: 0;
+    font-family: "YouTube Noto",Roboto,Arial,Helvetica,sans-serif;
+    color: #eee;
+    text-align: left;
+    direction: ltr;
+    font-size: 11px;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    -ms-high-contrast-adjust: none;
 }
 
+  blockquote {
+    border-left: 4px solid #ccc;
+    font-weight: 500;
+    font-style: italic;
+    border-left-width: 0.25rem;
+    border-left-color: #e5e7eb;
+    font-size: 14px;
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    padding: 20px;
+    border-radius: 4px;
+    background-color: #252428;
+  }
 
- 
+  table {
+    border-collapse: collapse;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  th,
+  td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+  }
 `;
 
 // todo- move this to env
