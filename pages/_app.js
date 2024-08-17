@@ -34,7 +34,7 @@ const MyApp = ({ Component, pageProps }) => {
         <title>Koushith's Portfolio</title>
         <meta
           name="description"
-          content="I'm a Designer turned into Developer, skilled in React, React Native, Swift UI, and Java."
+          content="skilled in React, React Native, Swift UI, and Java."
         />
         <meta name="author" content="Koushith" />
       </Head>
